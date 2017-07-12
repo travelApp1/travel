@@ -31,6 +31,129 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/compile/e1347f02cb92d3ec473155a54d8ead15ae03d049_0.file.addUser.html.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/compile/e54f2cd898d8fa6aa73a74ccf2636e2671a13b46_0.file.showCategory.html.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/compile/f7516bcbd8ac575b298fc0a65c26624f1380aaa2_0.file.reg.html.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/tree.class.php" afterPath="$PROJECT_DIR$/libs/tree.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/admin/category.class.php" afterPath="$PROJECT_DIR$/module/admin/category.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/admin/container.class.php" afterPath="$PROJECT_DIR$/module/admin/container.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/admin/lists.class.php" afterPath="$PROJECT_DIR$/module/admin/lists.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/admin/login.class.php" afterPath="$PROJECT_DIR$/module/admin/login.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/admin/member.class.php" afterPath="$PROJECT_DIR$/module/admin/member.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/admin/position.class.php" afterPath="$PROJECT_DIR$/module/admin/position.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/admin/role.class.php" afterPath="$PROJECT_DIR$/module/admin/role.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/admin/user.class.php" afterPath="$PROJECT_DIR$/module/admin/user.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/index/guanzhu.class.php" afterPath="$PROJECT_DIR$/module/index/guanzhu.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/index/index.class.php" afterPath="$PROJECT_DIR$/module/index/index.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/index/info.class.php" afterPath="$PROJECT_DIR$/module/index/info.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/index/login.class.php" afterPath="$PROJECT_DIR$/module/index/login.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/index/member.class.php" afterPath="$PROJECT_DIR$/module/index/member.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/index/message.class.php" afterPath="$PROJECT_DIR$/module/index/message.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/index/show.class.php" afterPath="$PROJECT_DIR$/module/index/show.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/bootstrap.css" afterPath="$PROJECT_DIR$/static/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/static/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/swiper.min.css" afterPath="$PROJECT_DIR$/static/css/swiper.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/dialogs/attachment/attachment.js" afterPath="$PROJECT_DIR$/static/editor/dialogs/attachment/attachment.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/dialogs/charts/chart.config.js" afterPath="$PROJECT_DIR$/static/editor/dialogs/charts/chart.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/dialogs/charts/charts.css" afterPath="$PROJECT_DIR$/static/editor/dialogs/charts/charts.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/dialogs/charts/charts.js" afterPath="$PROJECT_DIR$/static/editor/dialogs/charts/charts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/dialogs/map/show.html" afterPath="$PROJECT_DIR$/static/editor/dialogs/map/show.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/dialogs/preview/preview.html" afterPath="$PROJECT_DIR$/static/editor/dialogs/preview/preview.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/dialogs/table/edittable.css" afterPath="$PROJECT_DIR$/static/editor/dialogs/table/edittable.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/dialogs/table/edittable.html" afterPath="$PROJECT_DIR$/static/editor/dialogs/table/edittable.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/dialogs/table/edittable.js" afterPath="$PROJECT_DIR$/static/editor/dialogs/table/edittable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/dialogs/table/edittd.html" afterPath="$PROJECT_DIR$/static/editor/dialogs/table/edittd.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/dialogs/table/edittip.html" afterPath="$PROJECT_DIR$/static/editor/dialogs/table/edittip.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/dialogs/wordimage/tangram.js" afterPath="$PROJECT_DIR$/static/editor/dialogs/wordimage/tangram.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/php/action_crawler.php" afterPath="$PROJECT_DIR$/static/editor/php/action_crawler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/php/action_list.php" afterPath="$PROJECT_DIR$/static/editor/php/action_list.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/php/action_upload.php" afterPath="$PROJECT_DIR$/static/editor/php/action_upload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/php/config.json" afterPath="$PROJECT_DIR$/static/editor/php/config.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/php/controller.php" afterPath="$PROJECT_DIR$/static/editor/php/controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/themes/default/css/ueditor.css" afterPath="$PROJECT_DIR$/static/editor/themes/default/css/ueditor.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/themes/default/css/ueditor.min.css" afterPath="$PROJECT_DIR$/static/editor/themes/default/css/ueditor.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/third-party/SyntaxHighlighter/shCore.js" afterPath="$PROJECT_DIR$/static/editor/third-party/SyntaxHighlighter/shCore.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/third-party/codemirror/codemirror.css" afterPath="$PROJECT_DIR$/static/editor/third-party/codemirror/codemirror.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/third-party/highcharts/adapters/mootools-adapter.js" afterPath="$PROJECT_DIR$/static/editor/third-party/highcharts/adapters/mootools-adapter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/third-party/highcharts/adapters/mootools-adapter.src.js" afterPath="$PROJECT_DIR$/static/editor/third-party/highcharts/adapters/mootools-adapter.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/third-party/highcharts/adapters/prototype-adapter.js" afterPath="$PROJECT_DIR$/static/editor/third-party/highcharts/adapters/prototype-adapter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/third-party/highcharts/adapters/prototype-adapter.src.js" afterPath="$PROJECT_DIR$/static/editor/third-party/highcharts/adapters/prototype-adapter.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/third-party/highcharts/adapters/standalone-framework.js" afterPath="$PROJECT_DIR$/static/editor/third-party/highcharts/adapters/standalone-framework.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/third-party/highcharts/adapters/standalone-framework.src.js" afterPath="$PROJECT_DIR$/static/editor/third-party/highcharts/adapters/standalone-framework.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/third-party/highcharts/highcharts-more.js" afterPath="$PROJECT_DIR$/static/editor/third-party/highcharts/highcharts-more.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/third-party/highcharts/highcharts-more.src.js" afterPath="$PROJECT_DIR$/static/editor/third-party/highcharts/highcharts-more.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/third-party/highcharts/highcharts.js" afterPath="$PROJECT_DIR$/static/editor/third-party/highcharts/highcharts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/third-party/highcharts/highcharts.src.js" afterPath="$PROJECT_DIR$/static/editor/third-party/highcharts/highcharts.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/third-party/highcharts/modules/annotations.js" afterPath="$PROJECT_DIR$/static/editor/third-party/highcharts/modules/annotations.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/third-party/highcharts/modules/annotations.src.js" afterPath="$PROJECT_DIR$/static/editor/third-party/highcharts/modules/annotations.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/third-party/highcharts/modules/canvas-tools.js" afterPath="$PROJECT_DIR$/static/editor/third-party/highcharts/modules/canvas-tools.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/third-party/highcharts/modules/canvas-tools.src.js" afterPath="$PROJECT_DIR$/static/editor/third-party/highcharts/modules/canvas-tools.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/third-party/highcharts/modules/data.js" afterPath="$PROJECT_DIR$/static/editor/third-party/highcharts/modules/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/third-party/highcharts/modules/data.src.js" afterPath="$PROJECT_DIR$/static/editor/third-party/highcharts/modules/data.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/third-party/highcharts/modules/drilldown.js" afterPath="$PROJECT_DIR$/static/editor/third-party/highcharts/modules/drilldown.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/third-party/highcharts/modules/drilldown.src.js" afterPath="$PROJECT_DIR$/static/editor/third-party/highcharts/modules/drilldown.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/third-party/highcharts/modules/exporting.js" afterPath="$PROJECT_DIR$/static/editor/third-party/highcharts/modules/exporting.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/third-party/highcharts/modules/exporting.src.js" afterPath="$PROJECT_DIR$/static/editor/third-party/highcharts/modules/exporting.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/third-party/highcharts/modules/funnel.js" afterPath="$PROJECT_DIR$/static/editor/third-party/highcharts/modules/funnel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/third-party/highcharts/modules/funnel.src.js" afterPath="$PROJECT_DIR$/static/editor/third-party/highcharts/modules/funnel.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/third-party/highcharts/modules/heatmap.js" afterPath="$PROJECT_DIR$/static/editor/third-party/highcharts/modules/heatmap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/third-party/highcharts/modules/heatmap.src.js" afterPath="$PROJECT_DIR$/static/editor/third-party/highcharts/modules/heatmap.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/third-party/highcharts/modules/map.js" afterPath="$PROJECT_DIR$/static/editor/third-party/highcharts/modules/map.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/third-party/highcharts/modules/map.src.js" afterPath="$PROJECT_DIR$/static/editor/third-party/highcharts/modules/map.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/third-party/highcharts/modules/no-data-to-display.js" afterPath="$PROJECT_DIR$/static/editor/third-party/highcharts/modules/no-data-to-display.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/third-party/highcharts/modules/no-data-to-display.src.js" afterPath="$PROJECT_DIR$/static/editor/third-party/highcharts/modules/no-data-to-display.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/third-party/highcharts/themes/dark-blue.js" afterPath="$PROJECT_DIR$/static/editor/third-party/highcharts/themes/dark-blue.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/third-party/highcharts/themes/dark-green.js" afterPath="$PROJECT_DIR$/static/editor/third-party/highcharts/themes/dark-green.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/third-party/highcharts/themes/gray.js" afterPath="$PROJECT_DIR$/static/editor/third-party/highcharts/themes/gray.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/third-party/highcharts/themes/grid.js" afterPath="$PROJECT_DIR$/static/editor/third-party/highcharts/themes/grid.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/third-party/highcharts/themes/skies.js" afterPath="$PROJECT_DIR$/static/editor/third-party/highcharts/themes/skies.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/third-party/jquery-1.10.2.js" afterPath="$PROJECT_DIR$/static/editor/third-party/jquery-1.10.2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/third-party/jquery-1.10.2.min.js" afterPath="$PROJECT_DIR$/static/editor/third-party/jquery-1.10.2.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/third-party/video-js/font/vjs.svg" afterPath="$PROJECT_DIR$/static/editor/third-party/video-js/font/vjs.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/third-party/video-js/video-js.css" afterPath="$PROJECT_DIR$/static/editor/third-party/video-js/video-js.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/third-party/video-js/video-js.min.css" afterPath="$PROJECT_DIR$/static/editor/third-party/video-js/video-js.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/third-party/video-js/video.dev.js" afterPath="$PROJECT_DIR$/static/editor/third-party/video-js/video.dev.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/third-party/video-js/video.js" afterPath="$PROJECT_DIR$/static/editor/third-party/video-js/video.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/third-party/webuploader/webuploader.css" afterPath="$PROJECT_DIR$/static/editor/third-party/webuploader/webuploader.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/third-party/webuploader/webuploader.custom.js" afterPath="$PROJECT_DIR$/static/editor/third-party/webuploader/webuploader.custom.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/third-party/webuploader/webuploader.custom.min.js" afterPath="$PROJECT_DIR$/static/editor/third-party/webuploader/webuploader.custom.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/third-party/webuploader/webuploader.flashonly.js" afterPath="$PROJECT_DIR$/static/editor/third-party/webuploader/webuploader.flashonly.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/third-party/webuploader/webuploader.flashonly.min.js" afterPath="$PROJECT_DIR$/static/editor/third-party/webuploader/webuploader.flashonly.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/third-party/webuploader/webuploader.html5only.js" afterPath="$PROJECT_DIR$/static/editor/third-party/webuploader/webuploader.html5only.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/third-party/webuploader/webuploader.html5only.min.js" afterPath="$PROJECT_DIR$/static/editor/third-party/webuploader/webuploader.html5only.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/third-party/webuploader/webuploader.js" afterPath="$PROJECT_DIR$/static/editor/third-party/webuploader/webuploader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/third-party/webuploader/webuploader.min.js" afterPath="$PROJECT_DIR$/static/editor/third-party/webuploader/webuploader.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/third-party/webuploader/webuploader.withoutimage.js" afterPath="$PROJECT_DIR$/static/editor/third-party/webuploader/webuploader.withoutimage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/third-party/webuploader/webuploader.withoutimage.min.js" afterPath="$PROJECT_DIR$/static/editor/third-party/webuploader/webuploader.withoutimage.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/third-party/zeroclipboard/ZeroClipboard.js" afterPath="$PROJECT_DIR$/static/editor/third-party/zeroclipboard/ZeroClipboard.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/third-party/zeroclipboard/ZeroClipboard.min.js" afterPath="$PROJECT_DIR$/static/editor/third-party/zeroclipboard/ZeroClipboard.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/ueditor.all.js" afterPath="$PROJECT_DIR$/static/editor/ueditor.all.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/ueditor.all.min.js" afterPath="$PROJECT_DIR$/static/editor/ueditor.all.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/ueditor.config.js" afterPath="$PROJECT_DIR$/static/editor/ueditor.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/ueditor.parse.js" afterPath="$PROJECT_DIR$/static/editor/ueditor.parse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/editor/ueditor.parse.min.js" afterPath="$PROJECT_DIR$/static/editor/ueditor.parse.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/bootstrap.min.css" afterPath="$PROJECT_DIR$/static/js/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/jquery.validate.js" afterPath="$PROJECT_DIR$/static/js/jquery.validate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/messages_zh.js" afterPath="$PROJECT_DIR$/static/js/messages_zh.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/mui.min.js" afterPath="$PROJECT_DIR$/static/js/mui.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/swiper.min.css" afterPath="$PROJECT_DIR$/static/js/swiper.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/swiper.min.js" afterPath="$PROJECT_DIR$/static/js/swiper.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/upload.js" afterPath="$PROJECT_DIR$/static/js/upload.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/admin/addC.html" afterPath="$PROJECT_DIR$/template/admin/addC.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/admin/addCategory.html" afterPath="$PROJECT_DIR$/template/admin/addCategory.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/admin/addCon.html" afterPath="$PROJECT_DIR$/template/admin/addCon.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/admin/addPos.html" afterPath="$PROJECT_DIR$/template/admin/addPos.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/admin/addRole.html" afterPath="$PROJECT_DIR$/template/admin/addRole.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/admin/addUser.html" afterPath="$PROJECT_DIR$/template/admin/addUser.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/admin/categoryCon.html" afterPath="$PROJECT_DIR$/template/admin/categoryCon.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/admin/editCategory.html" afterPath="$PROJECT_DIR$/template/admin/editCategory.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/admin/editLists.html" afterPath="$PROJECT_DIR$/template/admin/editLists.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/admin/index.html" afterPath="$PROJECT_DIR$/template/admin/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/admin/listsAdd.html" afterPath="$PROJECT_DIR$/template/admin/listsAdd.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/admin/main.html" afterPath="$PROJECT_DIR$/template/admin/main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/admin/showMember.html" afterPath="$PROJECT_DIR$/template/admin/showMember.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/index/info.html" afterPath="$PROJECT_DIR$/template/index/info.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/index/member.html" afterPath="$PROJECT_DIR$/template/index/member.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/index/reg.html" afterPath="$PROJECT_DIR$/template/index/reg.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/index/show.html" afterPath="$PROJECT_DIR$/template/index/show.html" />
     </list>
     <ignored path="travel.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,8 +188,8 @@
       <file leaf-file-name="addCon.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template/admin/addCon.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+            <state relative-caret-position="112">
+              <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -85,9 +208,11 @@
       <file leaf-file-name="container.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/admin/container.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="315">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding>
+                <marker date="1499828202792" expanded="true" signature="1190:1198" placeholder="//..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -95,8 +220,8 @@
       <file leaf-file-name="category.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/module/admin/category.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-53">
-              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+            <state relative-caret-position="277">
+              <caret line="60" column="33" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -111,6 +236,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/module/admin/category.class.php" />
       </list>
     </option>
   </component>
@@ -246,15 +372,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1499830157610</updated>
-      <workItem from="1499830162482" duration="814000" />
+      <workItem from="1499830162482" duration="1086000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="814000" />
+    <option name="totallyTimeSpent" value="1086000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="739" extended-state="1" />
+    <frame x="0" y="0" width="1366" height="739" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17304747" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -298,8 +424,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/template/admin/addCon.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        <state relative-caret-position="112">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -314,16 +440,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/module/admin/container.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="315">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <marker date="1499828202792" expanded="true" signature="1190:1198" placeholder="//..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module/admin/category.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-53">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        <state relative-caret-position="277">
+          <caret line="60" column="33" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
           <folding />
         </state>
       </provider>
