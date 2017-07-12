@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+
+    </style>
+    <script src="{JS_PATH}/jQuery.js"></script>
+    <script>
+        $(function () {
+            $("li span").click(function () {
+                $(this).nextAll("ul").toggle();
+            })
+
+        })
+    </script>
+</head>
+<body>
+{$str}
+</body>
+</html>

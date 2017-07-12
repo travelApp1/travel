@@ -4,26 +4,42 @@ class container extends main{
         $this->smarty->display("addC.html");
     }
 
-    function addCon(){
-        $pid=$_POST["pid"];
-        $cname=$_POST["cname"];
-        $db=new db("category");
+    function insertCon(){
+        $cid=$_POST["cid"];
+        $title=$_POST["title"];
+        $con=$_POST["con"];
+        $jianjie=$_POST["jianjie"];
+        $imgurl=$_POST["imgurl"];
+        $keywords=$_POST["keywords"];
+        $price=$_POST["price"];
+        $popular=$_POST["popular"];
+        $people=$_POST["people"];
+        $db=new db("lists");
         if($db->insert("pid={$pid},cname='{$cname}'")){
-            $this->jump("添加成功","index.php?m=admin&f=category&a=add");
+           echo "ok";
         }
     }
 
-    function showCat(){
-        $db=new db("");
+    function addCon(){
+        $cid=$_GET["cid"];
+        $this->smarty->assign("cid",$cid);
+        $this->smarty->display("addCon.html");
+    }
+
+    function showCon(){
+        $cid=$_GET["cid"];
+        $db=new db("lists");
+        $result=$db->select();
+        $this->smarty->assign("cid",$cid);
+        $this->smarty->assign("container",$result);
+        $this->smarty->display("showCon.html");
+    }
+
+    function show(){
+        $db=new db("category");
         $tree=new tree();
-        $tree->getTree3(0, 0, $db, "category");
+        $tree->getTree2(0,0,"-",$db->db,"category");
         $this->smarty->assign("str",$tree->str);
-        $this->smarty->display("categoryCon.html");
-
-
-//        $db=new db("category");
-//        $result=$db->select();
-//        $this->smarty->assign("category",$result);
-//        $this->smarty->display("categoryCon.html");
+        $this->smarty->display("showCategory1.html");
     }
 }

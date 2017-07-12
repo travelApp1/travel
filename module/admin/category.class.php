@@ -68,4 +68,5 @@ class category extends main{
             $this->jump("修改成功", "index.php?m=admin&f=category&a=show");
         }
     }
+    
 }

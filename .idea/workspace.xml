@@ -2,7 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="020aa86d-534b-4a05-85e9-9771d1b10b48" name="默认的" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/compile/0e8c91b2c0a1d535e602d88cdc955c5d403b9432_0.file.hkb-sp.html.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/compile/125bd11aaaf45d28c180ddc9c90082cfbb8e8b20_0.file.index.html.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/compile/1cf6546eccb22bcbe9864a1e6bb01ea6ce2f7f31_0.file.addCon.html.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/compile/2b531b12cdba41411736e7b0535ec27ca301941a_0.file.addC.html.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/compile/3ca1195cb3d557d2db3cf3d9415a4a18a8b3bacb_0.file.member.html.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/compile/437eb253071c42d92ac0a3904ed06bc86ec1e1cc_0.file.showMember.html.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/compile/4e35beb954b2f5e54c05333936c6c30d0dfed0e6_0.file.login1.html.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/compile/52821d4c81339d661295423782521c0481819af8_0.file.index.html.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/compile/63fce2b7bddda966d4c823ffaaba6f0f2f5553e8_0.file.header.html.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/compile/6d072d58e186533913f99a6636da4faa10fa08ad_0.file.sousuo.html.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/compile/729d0308e125c0cfb7aa20fc52b0b06490d668c2_0.file.editCategory.html.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/compile/73e2564a149e5b5aa84401144d4982fcfa5fea39_0.file.login1.html.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/compile/81efbe4ed07e51cb675a078dd8ed89305c96147f_0.file.main.html.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/compile/897252aa77f402230694a1ad745ed317fa906a1c_0.file.index.html.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/compile/8cb587802f6e3bd3b64db635416919cc059d5fe1_0.file.addRole.html.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/compile/9e4fe41da69eea48a1a8e2eb80df7c1e2cd1ab83_0.file.welcome.html.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/compile/a2c49e5067cc56f44e47e1b4bf52a95404ff232e_0.file.editMember.html.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/compile/a420e06f2e850be70ad9885719e794a2a56ad91f_0.file.addCategory.html.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/compile/a4f2564d27a8c5e21ed3e7f47df35ebb5171f76a_0.file.member.html.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/compile/a98decbfef48b369d28023c7c8c33207df84ca97_0.file.showUser.html.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/compile/a9be971b391938bba40eeb93ca58cedfccbc08f9_0.file.addMember.html.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/compile/b80029968266e757fbaa5e5949b4c925b7f4df6f_0.file.sousuo.html.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/compile/c126b4294a5a948b5b4adfe41e33959a6cb66379_0.file.login.html.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/compile/c715a2b1cb383c5670dab344156eb39640ebfdb2_0.file.showRole.html.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/compile/dc007b2fc0d71addf4c66d3a08a009fc551ff17c_0.file.login.html.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/compile/dcf661abd9175e4eec778d5ec32e53dad1e5356b_0.file.hkb-sp.html.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/compile/e1347f02cb92d3ec473155a54d8ead15ae03d049_0.file.addUser.html.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/compile/e54f2cd898d8fa6aa73a74ccf2636e2671a13b46_0.file.showCategory.html.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/compile/f7516bcbd8ac575b298fc0a65c26624f1380aaa2_0.file.reg.html.php" afterPath="" />
     </list>
     <ignored path="travel.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,11 +52,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+            <state relative-caret-position="120">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addCon.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/admin/addCon.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="82">
+              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addC.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/admin/addC.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="container.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/admin/container.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="category.class.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/module/admin/category.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-53">
+              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -101,6 +169,66 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="travel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="travel" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="travel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="travel" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="travel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="travel" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="travel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="travel" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -118,15 +246,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1499830157610</updated>
-      <workItem from="1499830162482" duration="200000" />
+      <workItem from="1499830162482" duration="814000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="200000" />
+    <option name="totallyTimeSpent" value="814000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="739" extended-state="0" />
+    <frame x="0" y="0" width="1366" height="739" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17304747" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -162,8 +290,40 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        <state relative-caret-position="120">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/admin/addCon.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/admin/addC.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/admin/container.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/admin/category.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-53">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding />
         </state>
       </provider>

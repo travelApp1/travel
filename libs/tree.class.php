@@ -64,17 +64,17 @@ class tree{
 
         while ($row = $result->fetch_assoc()) {
             //  1. 编程类    2.管理类
-            $id = $row["id"];
+            $id = $row["cid"];
             $sql="select * from category where pid=".$id;
 
             $re=$db->query($sql);
 
-            $catname = $row["catname"];
+            $catname = $row["cname"];
             //$str=str_repeat($flag,$step);
             if(mysqli_num_rows($re)>0) {
                 $this->str .= "<li> <span>{$catname}</span>";
             }else{
-                $this->str .= "<li> <a href='show.php?id={$id}' target='showCon'>{$catname}</a>";
+                $this->str .= "<li> <a href='index.php?m=admin&f=container&a=showCon&cid={$id}' target='showCon'>{$catname}</a>";
             }
 
             $this->getTree2($id, $step, $flag, $db, $table);
