@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: 2017-07-12 03:08:35
+-- Generation Time: 2017-07-12 04:59:41
 -- 服务器版本： 5.6.17
 -- PHP Version: 5.5.12
 
@@ -34,7 +34,7 @@ CREATE TABLE IF NOT EXISTS `category` (
   `english` varchar(50) NOT NULL,
   `pid` int(11) NOT NULL,
   PRIMARY KEY (`cid`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=5 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=6 ;
 
 --
 -- 转存表中的数据 `category`
@@ -55,7 +55,7 @@ INSERT INTO `category` (`cid`, `cname`, `isshow`, `catimg`, `english`, `pid`) VA
 CREATE TABLE IF NOT EXISTS `lists` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `title` varchar(200) CHARACTER SET utf8 NOT NULL,
-  `container` mediumtext CHARACTER SET utf8 NOT NULL,
+  `con` mediumtext CHARACTER SET utf8 NOT NULL,
   `imgurl` varchar(255) NOT NULL,
   `listtime` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `jianjie` varchar(2000) CHARACTER SET utf8 NOT NULL,
