@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<style>
+    li{
+        padding: 10px 0;
+    }
+    li>span{
+        padding-right:20px;
+        cursor: pointer;
+    }
+    li>a{
+        color: #0074ff;
+        padding-right:20px;
+    }
+    li>a:nth-child(2){
+        color: #ff413f;
+    }
+</style>
+<body>
+
+<?php
+include "../public/db.php";
+include "../public/tree.php";
+$obj = new tree();
+$obj->getTree3(0, 0, $db, "category");
+echo $obj->str;
+?>
+
+</body>
+<script src="{JS_PATH}/jQuery.js"></script>
+<script>
+    $("li>span").click(function () {
+        $(this).nextAll("ul").slideToggle();
+    })
+</script>
+</html>

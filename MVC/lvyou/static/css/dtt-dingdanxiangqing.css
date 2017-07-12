@@ -1,0 +1,465 @@
+body{
+    background: #fdfdfd;
+}
+.swiper-container{
+    width: 100%;
+    overflow:hidden;
+    position: relative;
+}
+.banner{
+    width:500%;
+    height: 3.42rem;
+    background: #f7f8f9;
+    position: relative;
+}
+.banner-tu{
+    width: 100%;
+    height: 3.1rem;
+    float: left;
+
+}
+.banner-tu img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.lunbo-dian{
+    display: flex;
+    width: 0.8rem;
+    justify-content:space-around;
+    margin-top: 0.12rem;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0.1rem;
+    margin: auto;
+    z-index: 6;
+}
+.lunbo-dian span{
+    width: 0.1rem;
+    height: 0.1rem;
+    border-radius: 50%;
+    background: #d2d2d2;
+    float: left;
+}
+.lunbo-dian .swiper-pagination-bullet-active{
+    background:  #2175ff;
+}
+.main{
+    padding: 0 0.24rem 0.3rem 0.24rem;
+}
+.main-bt{
+    margin-top: 0.22rem;
+    color: #373d43;
+    font-size: 0.3rem;
+    font-family: '苹方';
+    font-weight: bold;
+}
+.main-xiaobt-tu{
+    width: 0.2rem;
+    height: 0.18rem;
+    float: left;
+}
+.main-xiaobt-tu img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin-top: 0.05rem;
+    margin-left: 0.1rem;
+}
+.main-xiaobt p{
+    font-size: 0.2rem;
+    font-weight: bold;
+    font-family: '苹方';
+    float: left;
+    margin-left: 0.20rem;
+    color: #bbbbbb;
+}
+.main-xiaobt-nr{
+    margin-top: 0.5rem;
+}
+.main-xiaobt-nr ul{
+    display: flex;
+    margin-top: 0.12rem;
+}
+.main-xiaobt-nr ul li{
+    width: 1.3rem;
+    height: 0.5rem;
+    background: url("../img/dtt-sousuo_22.png") center center no-repeat;
+    background-size: 100%;
+    margin-right: 0.2rem;
+    font-size: 0.22rem;
+    font-family: '苹方';
+    font-weight: bold;
+    color: #2da2ed;
+    text-align: center;
+    line-height: 0.5rem;
+}
+.main-lanmu{
+    margin-top: 0.3rem;
+}
+.main-lanmu p{
+    font-family: 'San Francisco Display';
+    font-size: 0.22rem;
+    font-weight: bold;
+    color: #a5a5a5;
+}
+.main-lanmu span{
+    font-family: 'San Francisco Display';
+    font-size: 0.24rem;
+    font-weight: bold;
+    display:block;
+    color: #767676;
+}
+.main-lanmu .diandian{
+    font-size: 0.3rem;
+}
+.main-lanmu-nr{
+    margin-top: 0.2rem;
+    height: 1.5rem;
+}
+.main-lanmu-nr ul{
+    width: 100%;
+    height: 100%;
+}
+.main-lanmu-nr ul li{
+    width: 1.45rem;
+    height: 0.47rem;
+    border-radius: 0.2rem;
+    background: #fff;
+    font-size: 0.22rem;
+    font-family: '苹方';
+    font-weight: bold;
+    color: #bfbfbf;
+    text-align: center;
+    line-height: 0.47rem;
+    float: left;
+    box-shadow: 0 0 0.08rem #ccc;
+    margin-right: 0.2rem;
+    margin-top: 0.2rem;
+}
+.main-lanmu-nr ul li.active{
+    background:#2f66f3 ;
+    color: #fff;
+}
+.main-lanmu-taocannr{
+    margin-top: 0.2rem;
+    width: 100%;
+    height: 1rem;
+    border-radius: 0.1rem;
+    background: #2f66f3;
+    padding: 0.05rem 0.1rem 0 0.1rem;
+}
+.main-lanmu-taocan-left{
+    width: 4.8rem;
+    height: 100%;
+    float: left;
+}
+.main-lanmu-taocan-left p{
+    font-family: '苹方';
+    font-size: 0.26rem;
+    font-weight: bold;
+    color: #fff;
+}
+.main-taocan-xuanze{
+    margin-top: 0.1rem;
+    padding: 0 0.2rem;
+}
+.main-taocan-xuanze-box{
+    width: 0.75rem;
+    height: 0.3rem;
+    background: #f7f7f7;
+    border-radius: 0.2rem;
+    font-size: 0.18rem;
+    font-weight: bold;
+    font-family: '苹方';
+    color: #2268cf;
+    text-align: center;
+    line-height: 0.3rem;
+    float: left;
+    margin-left: 0.12rem;
+}
+.main-lanmu-taocan-right{
+    width: 1.2rem;
+    height: 100%;
+    float: left;
+}
+.main-lanmu-taocan-right p{
+    font-weight: bold;
+    font-size: 0.18rem;
+    font-family: '苹方';
+    color: #fff;
+}
+.main-lanmu-taocan-right span{
+    font-weight: bold;
+    font-size: 0.28rem;
+    font-family: '苹方';
+    color: #fff;
+    display: block;
+}
+.main-lmtcb-box{
+    margin-left: 0.2rem;
+    margin-top: 0.12rem;
+    float:left;
+}
+.main-lmtcb-tu{
+    width:0.16rem;
+    height: 0.2rem;
+    margin-top: 0.05rem;
+    float: left;
+}
+.main-lmtcb-tu img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.main-lmtcb-fangan{
+    font-weight: bold;
+    font-size: 0.22rem;
+    font-family: '苹方';
+    color: #0ecf8a;
+    float: left;
+    margin-left: 0.1rem;
+}
+.main-lmtcb-money{
+    margin-left: 0.1rem;
+    font-weight: bold;
+    font-size: 0.24rem;
+    font-family: '苹方';
+    color: #cbcbcb;
+    float: left;
+}
+.renshu{
+    margin-top: 0.8rem;
+}
+.mlmrs-renshu{
+    float: left;
+}
+.mlmrs-renshu-tu{
+    margin-top: 0.25rem;
+    width: 0.3rem;
+    height: 0.3rem;
+    float: left;
+}
+.mlmrs-renshu-tu img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.show-renshu{
+    width: 1.45rem;
+    height: 0.47rem;
+    border-radius: 0.2rem;
+    background: #fff;
+    font-size: 0.22rem;
+    font-family: '苹方';
+    font-weight: bold;
+    color: #bfbfbf;
+    text-align: center;
+    line-height: 0.47rem;
+    float: left;
+    box-shadow: 0 0 0.08rem #ccc;
+    margin-left: 0.2rem;
+    margin-top: 0.2rem;
+    border: 0;
+    outline: none;
+}
+.baoxian{
+    float: right;
+}
+.baoxian p{
+    height: 0.23rem;
+    font-size: 0.22rem;
+    font-family: '苹方';
+    font-weight: bold;
+    color: #bfbfbf;
+    line-height: 0.23rem;
+    float: left;
+    margin-top: 0.2rem;
+}
+.baoxian-xuanze{
+    width: 0.8rem;
+    height: 0.4rem;
+    float: left;
+    margin: 0.2rem;
+    position: relative;
+}
+.model-1{
+    display: block;
+    height: 0.3rem;
+}
+/*.baoxian-xuanze-yuan{
+    width: 0.28rem;
+    height: 0.28rem;
+    border-radius: 50%;
+    background: #f7f7f7;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0.1rem;
+    margin: auto;
+}*/
+.more{
+    margin-top: 0.9rem;
+    padding: 0 0.2rem;
+}
+.more-zhifufangshi{
+    width: 100%;
+    height: 0.55rem;
+}
+.more-left{
+    float: left;
+}
+.more-left-dian{
+    width: 0.08rem;
+    height: 0.08rem;
+    border-radius: 50%;
+    background: #316bff;
+    margin-top: 0.25rem;
+    float: left;
+}
+.more-left p{
+    font-size: 0.24rem;
+    font-family: '苹方';
+    font-weight: bold;
+    color: #767676;
+    margin-left: 0.3rem;
+    line-height: 0.5rem;
+}
+.more-right{
+    float: right;
+}
+.more-right p{
+    font-size: 0.24rem;
+    font-family: '苹方';
+    font-weight: bold;
+    color: #bababa;
+    line-height: 0.5rem;
+    margin-right: 0.05rem;
+}
+.more-line{
+    width: 100%;
+    height: 0.02rem;
+    background: #bababa;
+}
+.last-money{
+    margin-top: 0.2rem;
+    overflow: hidden;
+    margin-bottom: 0.3rem;
+}
+.last-money-left{
+    float: left;
+}
+.last-money-left p{
+    font-size: 0.28rem;
+    font-family: '苹方';
+    font-weight: bold;
+    color: #3498ff;
+    line-height: 0.5rem;
+}
+.last-money-right{
+    float: right;
+}
+.last-money-right p{
+    font-size: 0.25rem;
+    font-family: '苹方';
+    font-weight: bold;
+    color: #3498ff;
+    line-height: 0.5rem;
+}
+.last-money-right p span{
+    font-size: 0.5rem;
+}
+.anniu{
+    width: 100%;
+    height: 3rem;
+}
+.anniu-bg{
+   width: 6.67rem;
+    height: 0.84rem;
+    background: url("../img/dtt-dingdan_18.png") center no-repeat;
+    background-size: cover;
+    margin-left: 0.15rem;
+}
+.anniu-bg p{
+    font-size: 0.28rem;
+    font-family: '苹方';
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    line-height: 0.84rem;
+}
+.checkbox {
+    position: relative;
+    display:block;
+    width: 100%;
+    height: 100%;
+}
+.checkbox:after, .checkbox:before {
+    display: block;
+    font-family: FontAwesome;
+    -webkit-font-feature-settings: normal;
+    -moz-font-feature-settings: normal;
+    font-feature-settings: normal;
+    -webkit-font-kerning: auto;
+    -moz-font-kerning: auto;
+    font-kerning: auto;
+    -webkit-font-language-override: normal;
+    -moz-font-language-override: normal;
+    font-language-override: normal;
+    font-stretch: normal;
+    font-style: normal;
+    font-synthesis: weight style;
+    font-variant: normal;
+    font-weight: normal;
+    text-rendering: auto;
+}
+.checkbox label {
+    width: 0.8rem;
+    height: 0.4rem;
+    background: #ccc;
+    position: relative;
+    display: block;
+    border-radius: 46px;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+.checkbox label:after {
+    content: '';
+    position: absolute;
+    width: 0.28rem;
+    height: 0.28rem;
+    border-radius: 100%;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    background: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    bottom: 0;
+    margin: auto;
+}
+.checkbox input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    opacity: 0;
+    cursor: pointer;
+}
+.checkbox input:hover + label:after {
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.2), 0 3px 8px 0 rgba(0, 0, 0, 0.15);
+}
+.checkbox input:checked + label:after {
+    left: 0.45rem;
+}
+
+.model-1 .checkbox input:checked + label {
+    background: #376ecb;
+}
+.model-1 .checkbox input:checked + label:after {
+    background: #f7f7f7;
+}

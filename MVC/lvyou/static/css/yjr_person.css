@@ -1,0 +1,273 @@
+body {
+    background: #64917F;
+    font-family: "苹方";
+}
+
+/*头部*/
+.bannerk {
+    width: 100%;
+    height: 5.10rem;
+    background: url("../img/yjr_person_banner.png") no-repeat;
+    background-size: cover;
+    font-family: "San Francisco Display";
+    color: #fff;
+    position: relative;
+}
+.bannerk .zhe{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left:0;
+    right:0;
+    margin:auto;
+    background: #65917F;
+    opacity: 0.3;
+}
+.banner-title {
+    width: 100%;
+    height: 1rem;
+    position: relative;
+}
+
+.banner-fh {
+    margin-left: 0.24rem;
+    margin-top: 0.13rem;
+    width: 0.6rem;
+    height: 0.6rem;
+    float: left;
+}
+
+.banner-fh img {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.banner-fx {
+    margin-right: 0.24rem;
+    margin-top: 0.2rem;
+    width: 1rem;
+    height: 0.54rem;
+    border-radius: 0.4rem;
+    border: 0.04rem solid #fff;
+    float: right;
+    background: #698CE1;
+    position: relative;
+}
+
+.banner-fx img {
+    height: 0.46rem;
+    width: 0.46rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.banner-two {
+    width: 100%;
+    height: 1.20rem;
+    position: relative;
+    margin-bottom: 0.1rem;
+}
+
+.banner-tx {
+    width: 1.16rem;
+    height: 1.16rem;
+    border-radius: 50%;
+    border: 0.02rem solid #fff;
+    margin: 0 auto;
+}
+
+.banner-tx img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.bianji, .shezhi {
+    width: 0.56rem;
+    height: 0.56rem;
+    border-radius: 50%;
+    border: 0.02rem solid #fff;
+    position: absolute;
+    bottom: 0.16rem;
+    background: #2758E6;
+}
+
+.bianji img, .shezhi img {
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.bianji {
+    left: 1.3rem;
+}
+
+.shezhi {
+    right: 1.3rem;
+}
+
+.banner-three {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 0.32rem;
+    font-weight: bold;
+    position: relative;
+}
+.banner-four{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 0.26rem;
+    /*font-weight: bold;*/
+    position: relative;
+}
+.banner-sl{
+    width: 100%;
+    height: 0.2rem;
+    font-size: 0.18rem;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+}
+.banner-wjx{
+    margin:0 auto;
+    width: 20%;
+    height:0.24rem;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.banner-wjx img{
+    width: 0.22rem;
+    height: 0.22rem;
+}
+/*内容开始*/
+.neirong{
+    margin:0 auto;
+    width: 7rem;
+    height: auto;
+    background: red;
+    border-top-left-radius: 0.2rem;
+    border-top-right-radius: 0.2rem;
+    position: relative;
+    margin-top: -1.2rem;
+    background: #F1F1F1;
+    padding-bottom: 0.5rem;
+}
+.nr-title{
+    width: 100%;
+    height:1.1rem;
+    background: #2A70EF;
+    border-top-left-radius: 0.2rem;
+    border-top-right-radius: 0.2rem;
+    margin-bottom: 0.25rem;
+}
+.nr-nr{
+    width: 100%;
+    height: auto;
+}
+.nr-nr-one{
+    margin: 0 auto;
+    width: 6.70rem;
+    height: 5.90rem;
+    background: url("../img/yjr_per_gd.png")bottom no-repeat #ffffff;
+    border-radius: 0.1rem;
+    margin-bottom: 0.2rem;
+}
+.nr-nr-title{
+    font-family: "San Francisco Display";
+    font-weight: bold;
+    font-size: 0.28rem;
+    color:#275de8;
+    padding-top: 0.3rem;
+    padding-left: 0.2rem;
+}
+.like{
+    width: 100%;
+    height:0.4rem;
+    padding-left: 0.2rem;
+    margin-top: 0.15rem;
+    margin-bottom: 0.15rem;
+}
+.like-zi{
+    width: 0.94rem;
+    height: 0.36rem;
+    float: left;
+    margin-right: 0.15rem;
+    background: url("../img/yjr_per_liked.png")center center no-repeat;
+    background-size: 100%;
+    font-size: 0.22rem;
+    text-align: center;
+    line-height: 0.36rem;
+    font-family: "San Francisco Display";
+    font-weight: bold;
+    color: #68ADF5;
+}
+.jing{
+    width: 100%;
+    height: 3.16rem;
+    border-radius: 0.1rem;
+    margin-bottom: 0.2rem;
+}
+.jing img{
+    width: 100%;
+    height: 100%;
+}
+.chart{
+    width: 100%;
+    height: 1.05rem;
+    border-top: 0.02rem solid #EFEFEF;
+}
+.chart-one{
+    width: 50%;
+    height: 100%;
+    border-right:0.02rem solid #EFEFEF;
+    float: left;
+}
+.chart-two{
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+.chart-liuyan{
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    margin-top: 0.27rem;
+    margin-left: 1rem;
+    background: darkgrey;
+    float: left;
+}
+.chart-two-right{
+    font-family: "San Francisco Display";
+    padding-left: 0.3rem;
+    padding-top: 0.2rem;
+    float: left;
+}
+.chart-liu-zi1{
+    color: #707070;
+    font-weight: bold;
+    font-size: 0.22rem;
+}
+.chart-liu-zi2{
+    color: #cacaca;
+    font-size: 0.22rem;
+}
+
+
+

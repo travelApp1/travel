@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="{CSS_PATH}/bootstrap.min.css">
+    <link rel="stylesheet" href="{CSS_PATH}/base.css">
+    <style>
+        table{
+            margin-top: 40px!important;
+            width: 80%!important;
+            margin:0 auto;
+        }
+    </style>
+</head>
+<body>
+
+<table class="table table-bordered">
+    <th>id</th>
+    <th>角色</th>
+    <th>角色码</th>
+    {foreach $role as $v }
+    <tr>
+        <td>{$v["id"]}</td>
+        <td>{$v["rname"]}</td>
+        <td>{$v["rid"]}</td>
+    </tr>
+    {/foreach}
+</table>
+</body>
+</html>

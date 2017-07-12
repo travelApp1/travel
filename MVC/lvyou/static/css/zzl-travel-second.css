@@ -1,0 +1,224 @@
+body{
+    background: #f3f6f8;
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 349046 */
+    src: url('//at.alicdn.com/t/font_8yd5ejvzdrt3xr.eot');
+    src: url('//at.alicdn.com/t/font_8yd5ejvzdrt3xr.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_8yd5ejvzdrt3xr.woff') format('woff'),
+    url('//at.alicdn.com/t/font_8yd5ejvzdrt3xr.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_8yd5ejvzdrt3xr.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family:"iconfont";
+    font-size:0.35rem;
+    font-style:normal;
+    color: #fff;
+}
+header{
+    width: 100%;
+    height: 3.2rem;
+    background: #285bed;
+    float:left;
+    position: relative;
+
+}
+
+.bt{
+    width: 2.4rem;
+    height: 0.8rem;
+    margin: 0 auto;
+    margin-top:0.5rem;
+    background: url("../img/zzl-lv-title.png") center center no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+.icon1{
+    width: 0.5rem;
+    height: 0.5rem;
+    background: pink;
+    position: absolute;
+    top: -0.2rem;
+    left:-2.1rem;
+    background: url("../img/zzl-back.png") center center no-repeat;
+    background-size: 100%;
+}
+.icon2{
+    width: 1rem;
+    height: 1rem;
+    background: pink;
+    position: absolute;
+    top: -0.33rem;
+    right:-2.55rem;
+    background: url("../img/zzl-foot4.png") center center no-repeat;
+    background-size: 100%;
+}
+.sousuo{
+    width:100%;
+    height: 0.7rem;
+
+    position: absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    top:1rem;
+    margin:auto;
+    /*background: pink;*/
+}
+.sousuo1{
+    width: 85%;
+    height: 0.6rem;
+    outline: none;
+    position: absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    top:0;
+    margin:auto;
+}
+.sousuo-tu{
+    width:10%;
+    height:85%;
+    background:url("../img/zzl-sousuo(1).png")center center no-repeat;
+    background-size:60%;
+    float: right;
+    position: absolute;
+    right:0.6rem;
+    top:0.05rem;
+    margin:auto;
+}
+.banner{
+    width: 100%;
+    height: 3rem;
+    background:pink;
+    float: left;
+    margin-top: 0.4rem;
+    overflow: hidden;
+}
+.banner-k{
+    width: 26rem;
+    height: 100%;
+    background: green;
+}
+.item img{
+    width: 5rem;
+    height: 100%;
+    float: left;
+    padding-right: 0.2rem;
+}
+.xq-t{
+    width: 40%;
+    height: 1rem;
+    background:url("../img/zzl-lv-rm.png") center center no-repeat;
+    background-size:100%;
+    float: left;
+    margin-top: 0.3rem;
+    margin-left: 0.3rem;
+
+}
+.xq{
+    width: 100%;
+    height: auto;
+    /*background: pink;*/
+    float: left;
+    margin-bottom: 1rem;
+    padding:0.2rem;
+}
+.xqy{
+    width:30.5%;
+    height: 3rem;
+    background:#fff;
+    margin:0.1rem;
+    float: left;
+    box-shadow: 0.1rem 0.1rem 0.2rem rgba(0,0,0,0.2);
+
+}
+.xqy img{
+    width: 100%;
+    height:70%;
+}
+.xqy h6 {
+    font-size: 0.15rem;
+    margin-left: 0.1rem;
+    color:dodgerblue;
+    font-weight: 600;
+}
+
+footer{
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    height: 1rem;
+    background: url("../img/zzl-index3.png") center center no-repeat;
+    background-size: 100%;
+}
+.foot{
+    position: absolute;
+    margin-top: 0.25rem;
+    margin-left: 0.8rem;
+}
+.foot1{
+    position: absolute;
+    margin-top: 0.25rem;
+    margin-left:2.8rem;
+}
+.foot2{
+    position: absolute;
+    margin-top: 0.3rem;
+    margin-left: 4.75rem;
+}
+.foot3{
+    position: absolute;
+    margin-top: 0.3rem;
+    margin-left:6.5rem;
+}
+
+.active{
+    color:#3EFFA5;
+}
+
+
+
+html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.swiper-container{
+    height: 5rem;
+}
+.swiper-container img{
+    width: 100%;
+    height: 100%;
+}
