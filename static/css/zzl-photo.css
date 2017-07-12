@@ -1,0 +1,130 @@
+body{
+   background: url("../img/zzl-photo-bg.png") no-repeat;
+   background-size: 100%;
+}
+.back{
+   width: 100%;
+   height: 0.45rem;
+   /*background: pink;*/
+   margin-top: 0.35rem;
+   float: left;
+}
+.back img{
+   width:6%;
+   height: 100%;
+   display: block;
+   margin-left: 0.3rem;
+}
+.title{
+   width: 100%;
+   height: 2rem;
+   /*background: pink;*/
+   float:left;
+   margin-top: 0.3rem;
+}
+.title img{
+   width:80%;
+   height: 100%;
+   margin-left:0.7rem;
+}
+.kuang-k{
+   width:100%;
+   height: 10rem;
+   /*background: green;*/
+   float: left;
+   margin-top: 0.21rem;
+}
+.kuang{
+   width: 83%;
+   height: 100%;
+   margin:0 auto;
+   background: #fff;
+}
+.dian{
+   width: 100%;
+   height: 0.24rem;
+   background: red;
+   margin-top:0.6rem;
+   float: left;
+   opacity: 0;
+}
+.chose{
+   margin:0 auto;
+   width:100%;
+   height: 0.8rem;
+   /*background: red;*/
+   float: left;
+   margin-top: 0.7rem;
+
+}
+.chose img{
+   width: 4rem;
+   height: 100%;
+   /*background: green;*/
+   margin-left:1.1rem;
+   display: block;
+}
+.touch{
+   width:2.75rem;
+   height: 2.75rem;
+   /*background: pink;*/
+   margin-top: 0.8rem;
+   float: left;
+   margin-left: 1.8rem;
+
+}
+.touch img{
+   width: 100%;
+   height: 100%;
+   display: block;
+}
+.shangchuan{
+   width: 4.2rem;
+   height: 1.2rem;
+   /*background: red;*/
+   margin-top: 0.5rem;
+   float: left;
+   margin-left: 1.1rem;
+}
+.shangchuan img{
+   width: 100%;
+   height: 100%;
+   display: block;
+}
+.foot{
+   width: 100%;
+   height: 0.9rem;
+   /*background: red;*/
+   float: left;
+   margin-top: 0.6rem;
+}
+.item{
+   width: 50%;
+   height: 100%;
+   float: left;
+   padding: 0 0.2rem;
+   position: relative;
+}
+.item img{
+   width: 100%;
+   height: 100%;
+   display: block;
+
+
+}
+.item .zi{
+  position: absolute;
+   top:0.18rem;
+   left:1.3rem;
+   font-size: 0.26rem;
+   color:#fff;
+   font-weight: 600;
+}
+.item .zi1{
+   position: absolute;
+   top:0.5rem;
+   left:0.85rem;
+   font-size: 0.18rem;
+   font-weight: 600;
+   color:#ABCDFD;
+}
