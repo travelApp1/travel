@@ -1,3 +1,27 @@
+<?php
+/* Smarty version 3.1.30, created on 2017-07-14 16:22:36
+  from "D:\wamp\www\travel\template\admin\showCon.html" */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.30',
+  'unifunc' => 'content_5968d3aca04a91_22757126',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '5c7d2d94f80177313b9b004c29e9d2387c8834af' => 
+    array (
+      0 => 'D:\\wamp\\www\\travel\\template\\admin\\showCon.html',
+      1 => 1500042152,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_5968d3aca04a91_22757126 (Smarty_Internal_Template $_smarty_tpl) {
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -32,7 +56,8 @@
             text-align: center;
             line-height: 40px;
             border-radius: 5px;
-            background: url("{IMG_PATH}/inputbg.png")center center no-repeat;
+            background: url("<?php echo IMG_PATH;?>
+/inputbg.png")center center no-repeat;
             background-size: 100%;
             color: #fff;
             margin: 10px;
@@ -79,7 +104,8 @@
 <body>
 
 <div class="opt">
-    <a href="index.php?m=admin&f=container&a=addCon&cid={$cid}">添加内容</a>
+    <a href="index.php?m=admin&f=container&a=addCon&cid=<?php echo $_smarty_tpl->tpl_vars['cid']->value;?>
+">添加内容</a>
 </div>
 <table>
     <tr>
@@ -88,34 +114,47 @@
         <th>缩略图</th>
         <th>操作</th>
     </tr>
-    {foreach $container as $v}
+    <?php
+$_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['container']->value, 'v');
+if ($_from !== null) {
+foreach ($_from as $_smarty_tpl->tpl_vars['v']->value) {
+?>
     <tr class="tr">
         <td class="ti">
             <h3 class="h4">
-                {$v["title"]}
+                <?php echo $_smarty_tpl->tpl_vars['v']->value["title"];?>
+
             </h3>
         </td>
         <td class="con">
-            <div>{$v["con"]}</div>
+            <div><?php echo $_smarty_tpl->tpl_vars['v']->value["con"];?>
+</div>
         </td>
         <td>
-            <img src="../{$v['imgurl']}" width="120" height="120" alt="">
+            <img src="../<?php echo $_smarty_tpl->tpl_vars['v']->value['imgurl'];?>
+" width="120" height="120" alt="">
         </td>
-        <td><a href="index.php?m=admin&f=container&a=delCon">删除</a>
+        <td><a href="">删除</a>
             <a href="">编辑</a></td>
     </tr>
-    {/foreach}
-    <?php
-    }
-    ?>
-
-    <?php
-} else {
-    ?>
-    没有任何内容
     <?php
 }
+}
+$_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl);
 ?>
+
+    <?php echo '<?php
+    ';?>}
+    <?php echo '?>';?>
+
+    <?php echo '<?php
+';?>} else {
+    <?php echo '?>';?>
+    没有任何内容
+    <?php echo '<?php
+';?>}
+<?php echo '?>';?>
 </table>
 </body>
-</html>
+</html><?php }
+}

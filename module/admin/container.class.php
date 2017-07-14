@@ -14,8 +14,9 @@ class container extends main{
         $price=$_POST["price"];
         $popular=$_POST["popular"];
         $people=$_POST["people"];
+        $posid=empty($_POST["posid"])?"0":implode(";",$_POST["posid"]);
         $db=new db("lists");
-        if($db->insert("pid={$pid},cname='{$cname}'")){
+        if($db->insert("cid={$cid},title='{$title}',con='{$con}',jianjie='{$jianjie}',keywords='{$keywords}',price={$price},people={$people},popular={$popular},imgurl='{$imgurl}',posid='{$posid}'")){
            echo "ok";
         }
     }
@@ -23,13 +24,19 @@ class container extends main{
     function addCon(){
         $cid=$_GET["cid"];
         $this->smarty->assign("cid",$cid);
+        $db=new db("position");
+        $result=$db->select();
+        $this->smarty->assign("position",$result);
         $this->smarty->display("addCon.html");
     }
+
+
+
 
     function showCon(){
         $cid=$_GET["cid"];
         $db=new db("lists");
-        $result=$db->select();
+        $result=$db->where("cid=$cid")->select();
         $this->smarty->assign("cid",$cid);
         $this->smarty->assign("container",$result);
         $this->smarty->display("showCon.html");
@@ -41,5 +48,11 @@ class container extends main{
         $tree->getTree2(0,0,"-",$db->db,"category");
         $this->smarty->assign("str",$tree->str);
         $this->smarty->display("showCategory1.html");
+    }
+
+    function upload()
+    {
+        $obj = new upload();
+        $obj->move();
     }
 }
