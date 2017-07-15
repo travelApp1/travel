@@ -9,8 +9,8 @@ session_start();
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="css/mui.min.css">
-    <script src="js/rem.js"></script>
+    <link rel="stylesheet" href="{CSS_PATH}/mui.min.css">
+    <script src="{JS_PATH}/rem.js"></script>
     <script>
         window.onload=function () {
             var back=document.querySelector(".back");
@@ -22,7 +22,7 @@ session_start();
 </head>
 <body>
 <header class="mui-bar mui-bar-nav" style="background:#285BED;">
-    <a herf="#"><img src="img/zzl-back.png" alt="" style="width:1.5rem;margin-top:0.6rem"></a>
+    <a herf="#"><img src="{IMG_PATH}/zzl-back.png" alt="" style="width:1.5rem;margin-top:0.6rem"></a>
     <h1 class="mui-title" style="color: #fff;">设置</h1>
 </header>
 
@@ -35,7 +35,7 @@ session_start();
         </li>
 
         <li class="mui-table-view-cell">
-            <a class="mui-navigate-right" href="#">
+            <a class="mui-navigate-right" href="{'index.php?m=index&f=xiugai&a=loginout'}">
                 退出登录
             </a>
         </li>

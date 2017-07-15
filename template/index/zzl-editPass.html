@@ -7,11 +7,11 @@
 content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Document</title>
-        <link rel="stylesheet" href="css/mui.min.css">
-        <script src="js/jQuery.js"></script>
-            <script src="js/rem.js"></script>
-         <script src="js/jquery.validate.js"></script>
-        <script src="js/messages_zh.js"></script>
+        <link rel="stylesheet" href="{CSS_PATH}/mui.min.css">
+        <script src="{JS_PATH}/jQuery.js"></script>
+            <script src="{JS_PATH}/rem.js"></script>
+         <script src="{JS_PATH}/jquery.validate.js"></script>
+        <script src="{JS_PATH}/messages_zh.js"></script>
 <style>
     label.error{
         position: absolute;
@@ -24,11 +24,11 @@ content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=
 </head>
 <body>
 <header class="mui-bar mui-bar-nav" style="background:#285BED;">
-    <a href="zzl-personal-xiugai.html"><img src="img/zzl-back.png" alt="" style="width:0.5rem;margin-top:0.2rem"></a>
+    <a href="{'index.php?m=index&f=xiugai'}"><img src="{IMG_PATH}/zzl-back.png" alt="" style="width:0.5rem;margin-top:0.2rem"></a>
     <h1 class="mui-title" style="color: #fff;">修改密码</h1>
 </header>
 <div class="mui-content">
-    <form id='login-form' class="mui-input-group" action="" method="post">
+    <form id='login-form' class="mui-input-group" method="post" class="editPass">
         <div class="mui-input-row">
             <label>旧密码</label>
             <input  type="text" class="mui-input-clear mui-input" placeholder="请输入旧密码" name="oldpass">
@@ -37,7 +37,7 @@ content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=
 
         <div class="mui-input-row">
             <label>新密码</label>
-            <input type="text" class="mui-input-clear mui-input" placeholder="输入密码" name="upass">
+            <input type="text" class="mui-input-clear mui-input" placeholder="输入密码" name="upass" id="upass">
         </div>
 
 
@@ -46,13 +46,29 @@ content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=
             <label>确认密码</label>
             <input type="text" class="mui-input-clear mui-input" placeholder="再次输入密码" name="upass1">
         </div>
-        <button  class="mui-btn mui-btn-block mui-btn-primary" type="submit" style="margin:0 auto;margin-top:8rem;width: 90%;">提交</button>
+        <button  class="mui-btn mui-btn-block mui-btn-primary" type="button" style="margin:0 auto;margin-top:8rem;width: 90%;">提交</button>
 
     </form>
 
 </div>
 </body>
 <script>
+    $(".willLogin").click(function () {
+        var str=$(".editPass").serialize();
+        $.ajax({
+            url:"index.php?m=index&f=xiugai&a=check",
+            type:"post",
+            data: str,
+            success:function(e){
+                if(e=="ok"){
+                    alert(e);
+                    location.href="index.php?m=index&f=login1";
+                }else{
+                    alert("修改密码失败");
+                }
+            }
+        });
+    })
     $("#login-form").validate({
         //rules规则和上面直接用一样
         rules: {
@@ -67,7 +83,7 @@ content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=
             upass1: {
                 required: true,
                 minlength:6,
-                equalTo:"#password"
+                equalTo:"#upass"
 
             }
 
