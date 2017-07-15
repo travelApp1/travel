@@ -30,6 +30,14 @@ class container extends main{
         $this->smarty->display("addCon.html");
     }
 
+    function delCon(){
+        $cid=$_GET["cid"];
+        $id=$_GET["id"];
+        $db=new db("lists");
+        if($db->where("id=$id")->del()){
+            $this->jump("删除成功","index.php?m=admin&f=container&a=showCon&cid=$cid");
+        }
+    }
 
 
 
