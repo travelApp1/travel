@@ -101,10 +101,8 @@ class db
             } else {
                 $this->opts["field"] = $params;
                 $this->opts["where"] = $this->opts["where"];
-
             }
         }
-
         $sql = "update " . $this->table . " set " . $this->opts["field"] . " " . $this->opts["where"];
         $this->db->query($sql);
         return $this->db->affected_rows;
@@ -125,10 +123,8 @@ class db
             $this->opts["field"] = substr($keys, 0, -1);
             $this->opts["val"] = substr($val, 0, -1);
         }
-
         $sql = "insert into " . $this->table . " (" . $this->opts["field"] . ") values (" . $this->opts["val"] . ")";
         $this->db->query($sql);
-
         return $this->db->affected_rows;
     }
 

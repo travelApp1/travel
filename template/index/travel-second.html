@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>Document</title>
+    <link rel="stylesheet" href="{CSS_PATH}/base.css">
+    <link rel="stylesheet" href="{CSS_PATH}/zzl-travel-second.css">
+    <link rel="stylesheet" href="{CSS_PATH}/swiper.min.css">
+    <script src="{JS_PATH}/rem.js"></script>
+    <script src="{JS_PATH}/swiper.min.js"></script>
+    <script src="{JS_PATH}/jQuery.js"></script>
+    <script src="{JS_PATH}/back.js"></script>
+</head>
+<body>
+<header>
+    <div class="bt">
+        <div class="icon1  history"></div>
+        <div class="icon2"></div>
+
+    </div>
+    <div class="sousuo">
+        <input  class="sousuo1" type="text" placeholder="请在此查找您需要的内容">
+        <div class="sousuo-tu"></div>
+    </div>
+</header>
+
+
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="{IMG_PATH}/zzl-lv-banner.png" alt=""></div>
+        <div class="swiper-slide"><img src="{IMG_PATH}/zzl-lv-xq1.png" alt=""></div>
+        <div class="swiper-slide"><img src="{IMG_PATH}/zzl-lv-banner.png" alt=""></div>
+        <div class="swiper-slide"><img src="{IMG_PATH}/zzl-lv-banner.png" alt=""></div>
+        <div class="swiper-slide"><img src="{IMG_PATH}/zzl-lv-banner.png" alt=""></div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next" style="height: 0.5rem"></div>
+    <div class="swiper-button-prev" style="height: 0.5rem"></div>
+</div>
+
+
+
+
+<div class="xq-t"></div>
+<ul class="xq">
+    <a href="index.php?m=index&f=xiang">
+        <li class="xqy">
+            <img src="{IMG_PATH}/zzl-lv-xq1.png" alt="">
+            <h6>大理丽江</h6>
+        </li>
+    </a>
+    <li class="xqy">
+        <img src="{IMG_PATH}/zzl-lv-xq1.png" alt="">
+        <h6>大理丽江</h6>
+    </li>
+    <li class="xqy">
+        <img src="{IMG_PATH}/zzl-lv-xq1.png" alt="">
+        <h6>大理丽江</h6>
+    </li>
+    <li class="xqy">
+        <img src="{IMG_PATH}/zzl-lv-xq1.png" alt="">
+        <h6>大理丽江</h6>
+    </li>
+    <li class="xqy">
+        <img src="{IMG_PATH}/zzl-lv-xq1.png" alt="">
+        <h6>大理丽江</h6>
+    </li>
+    <li class="xqy">
+        <img src="{IMG_PATH}/zzl-lv-xq1.png" alt="">
+        <h6>大理丽江</h6>
+    </li>
+
+    <footer>
+        <a href="#">
+            <div class="iconfont foot active">&#xe63a;</div>
+        </a>
+        <a href="{'index.php?m=index&f=sou&a=init'}">
+            <div class="iconfont foot1">&#xe616;</div>
+        </a>
+        <a href="#">
+            <div class="iconfont foot2">&#xe62c;</div>
+        </a>
+        <a href="{'index.php?m=index&f=member'}">
+            <div class="iconfont foot3">&#xe601;</div>
+        </a>
+    </footer>
+
+
+
+
+    </body>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        paginationClickable: true,
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: 2500,
+        autoplayDisableOnInteraction: false
+    });
+
+    $(".iconfont").click(function () {
+        var index=$(".iconfont").index(this);
+        $(".iconfont").filter(".active").removeClass("active").end().eq(index).addClass("active");
+    });
+
+    $(".icon2").click(function () {
+        location.href = "index.php?m=index&f=member";
+    })
+</script>
+
+
+</html>

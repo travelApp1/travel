@@ -30,7 +30,11 @@
         </div>
         <div class="banner-two">
             <div class="banner-tx">
-                <img src="{IMG_PATH}/yjr_per_tx.jpg" alt="">
+                {if $mphoto}
+                <img src="{$mphoto}" alt="">
+                {else}
+                <img src="{IMG_PATH}/14.png" alt="">
+                {/if}
             </div>
             <div class="bianji">
                 <a href="{'index.php?m=index&f=xiugai'}">
@@ -44,7 +48,7 @@
             </div>
         </div>
         <p class="banner-three">
-            JIM.GREEN
+            {$mname}
         </p>
         <p class="banner-four">
             I like this music so  make me  amazing

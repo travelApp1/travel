@@ -20,7 +20,7 @@ class upload {
             //2. 创建选择按钮
             this.createSelectBtn(params.selectBtn);
             //3. 创建上传按钮
-            this.createUploadBtn(params.uploadBtn)
+            this.createUploadBtn(params.uploadBtn);
 
             //4.  创建预览的区间
             this.createP(params.P);

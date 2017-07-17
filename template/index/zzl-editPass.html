@@ -28,32 +28,26 @@ content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=
     <h1 class="mui-title" style="color: #fff;">修改密码</h1>
 </header>
 <div class="mui-content">
-    <form id='login-form' class="mui-input-group" method="post" class="editPass">
+    <form id='login-form' class="mui-input-group" method="post" class="editPass" action="index.php?m=index&f=xiugai&a=check">
         <div class="mui-input-row">
             <label>旧密码</label>
-            <input  type="text" class="mui-input-clear mui-input" placeholder="请输入旧密码" name="oldpass">
+            <input  type="password" class="mui-input-clear mui-input" placeholder="请输入旧密码" name="oldpass">
         </div>
-
-
         <div class="mui-input-row">
             <label>新密码</label>
-            <input type="text" class="mui-input-clear mui-input" placeholder="输入密码" name="upass" id="upass">
+            <input type="password" class="mui-input-clear mui-input" placeholder="输入密码" name="upass" id="upass">
         </div>
-
-
-
         <div class="mui-input-row">
             <label>确认密码</label>
-            <input type="text" class="mui-input-clear mui-input" placeholder="再次输入密码" name="upass1">
+            <input type="password" class="mui-input-clear mui-input" placeholder="再次输入密码" name="upass1">
         </div>
-        <button  class="mui-btn mui-btn-block mui-btn-primary" type="button" style="margin:0 auto;margin-top:8rem;width: 90%;">提交</button>
-
+        <button  class="mui-btn mui-btn-block mui-btn-primary" type="submit" style="margin:0 auto;margin-top:8rem;width: 90%;">提交</button>
     </form>
 
 </div>
 </body>
 <script>
-    $(".willLogin").click(function () {
+   /* $(".willLogin").click(function () {
         var str=$(".editPass").serialize();
         $.ajax({
             url:"index.php?m=index&f=xiugai&a=check",
@@ -68,7 +62,7 @@ content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=
                 }
             }
         });
-    })
+    })*/
     $("#login-form").validate({
         //rules规则和上面直接用一样
         rules: {

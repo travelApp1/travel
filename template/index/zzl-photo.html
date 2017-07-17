@@ -8,6 +8,17 @@
     <link rel="stylesheet" href="{CSS_PATH}/zzl-photo.css">
     <script src="{JS_PATH}/rem.js"></script>
     <script src="{JS_PATH}/jQuery.js"></script>
+    <style>
+        .touch{
+            border-radius: 50%;
+            border: 2px solid #1e8ee9;
+        }
+        .touch>img{
+            list-style: none;
+            border: 0;
+            border-radius: 50%;
+        }
+    </style>
 </head>
 <body>
 <a href="{'index.php?m=index&f=xiugai'}"><div class="back"><img src="{IMG_PATH}/zzl-back.png" alt=""></div></a>
@@ -21,7 +32,11 @@
                 <img src="{IMG_PATH}/zzl-photo-chose.png" alt="">
             </div>
             <div class="touch">
-                <img src="{IMG_PATH}/zzl-photo-touch.png" alt="">
+                {if $mphoto}
+                <img src="{$mphoto}" alt="">
+                {else}
+                <img src="{IMG_PATH}/14.png" alt="">
+                {/if}
             </div>
             <div class="shangchuan">
                 <img src="{IMG_PATH}/zzl-photo-shangchuan.png" alt="">
@@ -41,4 +56,9 @@
         </div>
     </div>
 </body>
+<script>
+    $(".shangchuan").click(function () {
+        location.href="index.php?m=index&f=xiugai&a=editPhoto";
+    })
+</script>
 </html>

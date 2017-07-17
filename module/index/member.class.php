@@ -6,6 +6,7 @@ class member extends indexMain{
            $this->smarty->assign("mname",$this->session->get("mname"));
            $this->smarty->assign("mid",$this->session->get("mid"));
            $this->smarty->assign("nicheng",$this->session->get("nicheng"));
+           $this->smarty->assign("mphoto",$this->session->get("mphoto"));
            $this->smarty->display("member.html");
        }else{
            $this->jump("请登录","index.php?m=index&f=login");

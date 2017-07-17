@@ -39,7 +39,39 @@ class container extends main{
         }
     }
 
+    function editCon(){
+        $cid=$_GET["cid"];
+        $id=$_GET["id"];
+        $db=new db("lists");
+        $result=$db->where("id=$id")->select();
+        $this->smarty->assign("listcon",$result);
+//        $db=new db("position");
+//        $position=$db->select();
+//        $this->smarty->assign("position",$position);
+        $this->smarty->display("editCon.html");
+    }
 
+    function editConCon(){
+        $id=$_POST["id"];
+        $cid=$_POST["cid"];
+        $title=$_POST["title"];
+        $con=$_POST["con"];
+        $jianjie=$_POST["jianjie"];
+        $imgurl=$_POST["imgurl"];
+        $keywords=$_POST["keywords"];
+        $price=$_POST["price"];
+        $popular=$_POST["popular"];
+        $people=$_POST["people"];
+        $posid=empty($_POST["posid"])?"0":implode(";",$_POST["posid"]);
+        $db=new db("lists");
+        $result=$db->update("cid={$cid},title='{$title}',con='{$con}',jianjie='{$jianjie}',keywords='{$keywords}',price={$price},people={$people},popular={$popular},imgurl='{$imgurl}',posid='{$posid}' where id={$id}");
+        if($result>0){
+            echo "<script>alert('修改成功');location.href='index.php?m=admin&f=container&a=editCon&id={$id}&cid={$cid}'</script>";
+            exit;
+        }
+        echo "<script>alert('修改失败');</script>";
+        exit;
+    }
 
     function showCon(){
         $cid=$_GET["cid"];

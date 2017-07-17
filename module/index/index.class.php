@@ -16,6 +16,9 @@ class index extends indexMain {
     }
 
     function show(){
+        $db=new db("category");
+        $result=$db->select();
+        $this->smarty->assign("category",$result);
         $this->smarty->display("index.html");
     }
 }

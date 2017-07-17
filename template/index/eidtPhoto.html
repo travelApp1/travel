@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>Document</title>
+    <link rel="stylesheet" href="{CSS_PATH}/base.css">
+    <script src="{JS_PATH}/rem.js"></script>
+    <script src="{JS_PATH}/upload.js"></script>
+    <style>
+        body{
+            font-size: 0.24rem;
+        }
+    </style>
+</head>
+<body>
+<form action="index.php?m=index&f=xiugai&a=editPhotoCon" method="post">
+    <div class="uploadBox"></div>
+    <input type="hidden" name="cid"">
+    <input type="hidden" name="id"">
+    <input type="hidden" name="imgurl" class="imgurl">
+    <input type="submit" value="提交">
+</form>
+</body>
+<script>
+    var obj = new upload();
+    obj.size = 1024 * 1024 * 10;
+    obj.selectBtnStyle.background = "red";
+    obj.createView({
+        parent: document.querySelector(".uploadBox")
+    });
+
+    obj.up("index.php?m=index&f=xiugai&a=upload", function (data) {
+        console.log(data);
+        document.querySelector(".imgurl").value = data;
+    });    //跳转到未封装过的php
+
+</script>
+</html>

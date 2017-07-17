@@ -34,19 +34,20 @@ content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=
     <form id='login-form' class="mui-input-group" action="" method="post">
         <div class="mui-input-row">
             <label>旧昵称</label>
-            <input  type="text" class="mui-input-clear mui-input" placeholder="请输入旧昵称" name="oldname">
+            <input  type="text" class="mui-input-clear mui-input" value="{$nicheng}" name="oldname" readOnly="true">
         </div>
 
 
         <div class="mui-input-row">
             <label>新昵称</label>
-            <input type="text" class="mui-input-clear mui-input" placeholder="输入新昵称" name="uname">
+            <input type="text" class="mui-input-clear mui-input newNC" placeholder="输入新昵称" name="uname">
         </div>
+        <input type="hidden" value="{$mid}" class="midS">
             <button  class="mui-btn mui-btn-block mui-btn-primary" type="submit" style="margin:0 auto;margin-top:8rem;width: 90%;">提交</button>
     </form>
     <script>
-        $("button").click(function(){
-            alert(1)
+       /* $("button").click(function(){
+            alert(1);
             var oldname=$("input[name=oldname]").val();
             var uname=$("input[name=uname]").val();
 
@@ -75,7 +76,26 @@ content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=
             })
         })
 
-
+*/
+       $("button").click(function(){
+           var nicheng=$(".newNC").val();
+           var midS=$(".midS").attr("value");
+           alert(nicheng)
+           $.ajax({
+               url:"index.php?m=index&f=xiugai&a=addNcCon",
+               type:"post",
+               data:{
+                   nicheng:nicheng,mid:midS
+               },
+               success:function(e){
+                   if(e=="ok"){
+                       alert("添加成功");
+                   }else{
+                       alert(e);
+                   }
+               }
+           })
+       })
     </script>
 </div>
 </body>
