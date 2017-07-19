@@ -55,21 +55,22 @@ class xiugai extends indexMain{
         $upass1 = $_POST["upass1"];
         $mid=$this->session->get("mid");
         $db = new db("member");
-        $result = $db->select();
+        $result = $db->where("mid=$mid")->select();
+        $oldpass=md5($oldpass);
         foreach ($result as $v) {
-            if ($v["mpass"] == md5($oldpass)) {
+            if ($v["mpass"] == $oldpass) {
                 if($upass==$upass1){
                     $upass=md5($upass);
                     if( $db->where("mid=$mid")->update("mpass='$upass'")){
                         $this->session->clear();
-                        echo "<script>alert('ok');location.href='index.php?m=index&f=login&a=login1';</script>";
+                        $this->jump("修改成功","index.php?m=index&f=login&a=login1");
                         exit();
                     }
-                    echo "<script>alert('失败');</script>";
+                    $this->jump("修改失败","index.php?m=index&f=xiugai&a=editpass");
                     exit();
                 }
             }else{
-                echo "旧密码不正确";
+                $this->jump("旧密码不正确","index.php?m=index&f=xiugai&a=editpass");
                 exit;
             }
         }
@@ -85,7 +86,7 @@ class xiugai extends indexMain{
         $result=$db->update("mphoto='{$imgurl}' where mid={$mid}");
         if($result>0){
             $this->session->set("mphoto",$imgurl);
-            echo "<script>alert('修改头像成功');location.href='index.php?m=index&f=xiugai&a=photo';</script>";
+            echo "<script>alert('修改头像成功');location.href='index.php?m=index&f=member&a=init';</script>";
             exit;
         }else{
             echo "<script>alert('修改头像失败');</script>";

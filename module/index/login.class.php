@@ -84,7 +84,7 @@ class login extends indexMain
                     $this->session->set("mname", $v["mname"]);
                     $this->session->set("mid", $v["mid"]);
                     $this->session->set("mphoto", $v["mphoto"]);
-//                    $this->session->set("nicheng",$v["nicheng"]);
+                    $this->session->set("nicheng",$v["nicheng"]);
 //                    $this->session->set("mrole",$v["mrole"]);
 //                    $near=$this->session->get("near")?$this->session->get("near"):"index.php";
 

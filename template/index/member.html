@@ -12,11 +12,45 @@
         $(function () {
             $(".banner-fh").click(function () {
                 history.go(-1);
-            })
+            });
+            $(".banner-fx").click(function () {
+                $(".body-zhe").css("display","block");
+                $("body").css("overflow","hidden");
+            });
+            $(".body-zhe").click(function () {
+                $(this).css("display","none");
+                $("body").css("overflow","");
+            });
         });
     </script>
 </head>
 <body>
+<div class="body-zhe">
+    <div class="fxk">
+        <ul>
+            <li>
+                <a href="">
+                    <img src="{IMG_PATH}/fx-qq.png" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="{IMG_PATH}/fx-wx.png" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="{IMG_PATH}/fx-wb.png" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="{IMG_PATH}/gd.png" alt="" class="fxgd">
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
 <header>
     <div class="bannerk">
         <div class="zhe"></div>

@@ -2,7 +2,58 @@ body {
     background: #64917F;
     font-family: "苹方";
 }
+.body-zhe{
+    width: 100%;
+    height: 13.34rem;
+    position: fixed;
+    top:0;
+    left:0;
+    background: rgba(0,0,0,0.3);
+    z-index: 100;
+    display: none;
+}
+.body-zhe>.fxk{
+    width: 5.4rem;
+    height: 3.1rem;
+    position: absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom: 0;
+    margin: auto;
+    background: url("../img/fxk_03.png")center center;
+    background-size: cover;
+    border-radius: 0.2rem;
+}
+.body-zhe>.fxk>ul{
+    width: 100%;
+    height: 1rem;
+    position: absolute;
+    left:0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.body-zhe>.fxk>ul>li{
+    width: auto;
+    height: 100%;
 
+}
+.body-zhe>.fxk>ul>li>a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.body-zhe>.fxk>ul>li>a>img{
+    width: 0.77rem;
+    height: 0.77rem;
+}
+.body-zhe>.fxk>ul>li>a>.fxgd{
+    width: 0.77rem;
+    height: 0.44rem;
+}
 /*头部*/
 .bannerk {
     width: 100%;
