@@ -15,17 +15,16 @@
     </style>
 </head>
 <body>
-
 <table class="table table-bordered">
     <th>id</th>
     <th>分类名</th>
-    <th>所属分类</th>
+    <th>缩略图</th>
     <th>操作</th>
     {foreach $category as $v }
     <tr>
         <td>{$v["cid"]}</td>
         <td>{$v["cname"]}</td>
-        <td>{$v["pid"]}</td>
+        <td><img src="{$v['imgurl']}" alt="" style="width: 100px;height: 100px"></td>
         <td>
             <a href="index.php?m=admin&f=category&a=del&cid={$v['cid']}">删除</a>
             <a href="index.php?m=admin&f=category&a=edit&cid={$v['cid']}" style="margin-left: 20px">编辑</a>

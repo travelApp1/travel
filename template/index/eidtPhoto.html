@@ -12,6 +12,11 @@
         body{
             font-size: 0.24rem;
         }
+        .container{
+            padding: 0.1rem 0.3rem;
+            padding-bottom: 1rem;
+            background: #fff;
+        }
     </style>
 </head>
 <body>
@@ -19,14 +24,15 @@
     <a href="{'index.php?m=index&f=xiugai&a=photo'}"><img src="{IMG_PATH}/zzl-back.png" alt="" style="width:0.5rem;margin-top:0.2rem"></a>
     <h1 class="mui-title" style="color: #fff;">上传头像</h1>
 </header>
-<form action="index.php?m=index&f=xiugai&a=editPhotoCon" method="post">
-    <div class="uploadBox" style="margin-top: 1rem;"></div>
-    <input type="hidden" name="cid"">
-    <input type="hidden" name="id"">
-    <input type="hidden" name="imgurl" class="imgurl">
-    <input type="submit" value="提交" style="margin-left: 4.5%;margin-top:2rem;width: 90%;height: 1rem">
-
-</form>
+<div class="container">
+    <form action="index.php?m=index&f=xiugai&a=editPhotoCon" method="post">
+        <div class="uploadBox" style="margin-top: 1rem;"></div>
+        <input type="hidden" name="cid"">
+        <input type="hidden" name="id"">
+        <input type="hidden" name="imgurl" class="imgurl">
+        <input type="submit" value="提交" style="margin-left: 4.5%;margin-top:2rem;width: 90%;height: 1rem">
+    </form>
+</div>
 </body>
 <script>
     var obj = new upload();

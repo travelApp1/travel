@@ -20,7 +20,7 @@
             del.onclick = function () {
                 var that = this;
                 var ajax = new XMLHttpRequest();
-                ajax.open("get", "editConDelImg.php?id=" + id.value);
+                ajax.open("get", "index.php?m=admin&f=container&a=removeImg&id="+id.value );
                 ajax.onload = function () {
                     if (ajax.response == "ok") {
                         that.parentNode.removeChild(img);
@@ -69,7 +69,7 @@
     简介：<br>
     <textarea name="jianjie" id="jianjie" cols="30" rows="10" jie="{$listcon[0]['jianjie']}"></textarea>
 
-    <div class="con" con="{$listcon[0]['con']}"></div>
+    <div class="con" con='{$listcon[0]["con"]}'></div>
     内容：
     <script id="editor" type="text/plain" style="width:700px;height:320px;" name="con"></script>
     <br>
@@ -85,17 +85,18 @@
     <input type="hidden" name="cid" value="{$listcon[0]['cid']}">
     <input type="hidden" name="id" value="{$listcon[0]['id']}">
     <input type="hidden" name="imgurl" class="imgurl" value="{$listcon[0]['imgurl']}">
-    <!--推荐位：-->
-    <!--{foreach $position as $v}-->
-    <!--{if in_array($v['posid'],$posid)}-->
-    <!--{$v["posname"]}:-->
-    <!--<input type="checkbox" name="posid[]" value="{$v['posid']}" checked>-->
-    <!--{else}-->
-    <!--{$v["posname"]}:-->
-    <!--<input type="checkbox" name="posid[]" value="{$v['posid']}">-->
-    <!--{/if}-->
-    <!--{/foreach}-->
-    <!--<br>-->
+    <br>
+    推荐位：
+    {foreach $position as $v}
+
+    {if in_array($listcon[0]['posid'],$v)}
+    {$v["posname"]}<input type="checkbox" name="posid[]" value="{$v['posid']}" checked>
+    {else}
+    {$v["posname"]}<input type="checkbox" name="posid[]" value="{$v['posid']}">
+    {/if}
+    {/foreach}
+    <br>
+    <br>
     <input type="submit" value="提交">
 </form>
 
@@ -108,6 +109,7 @@
     });
     function setContent() {
         ue.setContent(document.querySelector(".con").getAttribute("con"));
+
     }
 
     var obj = new upload();

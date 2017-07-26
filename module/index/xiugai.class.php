@@ -30,19 +30,20 @@ class xiugai extends indexMain{
     }
 
     function addNcCon(){
-        $nicheneg=$_POST["nicheng"];
+        $nicheng=$_POST["nicheng"];
         $mid=$_POST["mid"];
         $db=new db("member");
-        if(empty($nicheneg)){
+        if(empty($nicheng)){
             echo "昵称不能为空";
             exit;
         }
-        if($db->where("nicheng=$nicheneg")->select()){
+        if($db->where("nicheng='$nicheng'")->select()){
             echo "昵称已存在";
             exit;
         }
-        if($db->where("mid=$mid")->update("nicheng='$nicheneg'")>0){
-            $this->session->set("nicheng",$nicheneg);
+        $result=$db->where("mid=$mid")->update("nicheng='{$nicheng}'");
+        if($result>0){
+            $this->session->set("nicheng",$nicheng);
             echo "ok";
             exit;
         }

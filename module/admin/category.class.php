@@ -71,7 +71,7 @@ class category extends main
                 exit;
             }
         }
-        if ($db->where("cid=$cid")->update("cname='$cname',pid=$pid,imgurl='$imgurl'") > 0) {
+        if ($db->where("cid=$cid")->update("cname='{$cname}',pid={$pid},imgurl='{$imgurl}'") > 0) {
             $this->jump("修改成功", "index.php?m=admin&f=category&a=show");
         }
     }

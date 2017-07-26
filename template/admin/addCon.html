@@ -59,8 +59,10 @@
             data: str,
             success: function (e) {
                 if (e=="ok") {
-                    alert("插入成功");
+                    alert("添加成功");
                     location.href="index.php?m=admin&f=container&a=addCon&cid={$cid}";
+                }else{
+                    alert("添加失败");
                 }
             }
         });

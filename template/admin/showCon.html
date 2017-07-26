@@ -88,6 +88,7 @@
         <th>缩略图</th>
         <th>操作</th>
     </tr>
+    {if $container}
     {foreach $container as $v}
     <tr class="tr">
         <td class="ti">
@@ -105,17 +106,11 @@
             <a href="index.php?m=admin&f=container&a=editCon&id={$v['id']}&cid={$cid}">编辑</a></td>
     </tr>
     {/foreach}
-    <?php
-    }
-    ?>
-
-    <?php
-} else {
-    ?>
-    没有任何内容
-    <?php
-}
-?>
+    {else}
+    <tr>
+        没有任何内容
+    </tr>
+    {/if}
 </table>
 </body>
 </html>

@@ -16,7 +16,8 @@ class container extends main{
         $people=$_POST["people"];
         $posid=empty($_POST["posid"])?"0":implode(";",$_POST["posid"]);
         $db=new db("lists");
-        if($db->insert("cid={$cid},title='{$title}',con='{$con}',jianjie='{$jianjie}',keywords='{$keywords}',price={$price},people={$people},popular={$popular},imgurl='{$imgurl}',posid='{$posid}'")){
+        $result=$db->insert("cid={$cid},title='{$title}',con='{$con}',jianjie='{$jianjie}',imgurl='{$imgurl}',keywords='{$keywords}',price={$price},popular={$popular},people={$people},posid='{$posid}'");
+        if($result>0){
            echo "ok";
         }
     }
@@ -45,9 +46,9 @@ class container extends main{
         $db=new db("lists");
         $result=$db->where("id=$id")->select();
         $this->smarty->assign("listcon",$result);
-//        $db=new db("position");
-//        $position=$db->select();
-//        $this->smarty->assign("position",$position);
+        $db1=new db("position");
+        $position=$db1->select();
+        $this->smarty->assign("position",$position);
         $this->smarty->display("editCon.html");
     }
 
@@ -94,5 +95,14 @@ class container extends main{
     {
         $obj = new upload();
         $obj->move();
+    }
+
+    function removeImg(){
+        $id=$_GET["id"];
+        $db=new db("lists");
+        $result=$db->where("id=$id")->insert("imgurl=''");
+        if($result>0){
+            echo "ok";
+        }
     }
 }

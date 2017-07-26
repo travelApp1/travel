@@ -1,0 +1,205 @@
+body{
+    background-image: url("../img/zzl-zfyhk-bg.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.back{
+    width: 100%;
+    height: 0.45rem;
+    /*background: pink;*/
+    margin-top: 0.35rem;
+    float: left;
+}
+.back img{
+    width:6%;
+    height: 100%;
+    display: block;
+    margin-left: 0.3rem;
+}
+.welcome{
+    width: 100%;
+    height: 1.3rem;
+    /*background: green;*/
+    float: left;
+    margin-top: 0.2rem;
+    padding: 0 0.3rem;
+}
+.welcome .yhk{
+    width: 40%;
+    height: 100%;
+    display: inline-block;
+}
+.welcome .jia{
+    width: 17%;
+    height: 50%;
+    float: right;
+    display: block;
+    margin-top:0.5rem;
+}
+.pay{
+    width: 100%;
+    height: 1.2rem;
+    /*background:red;*/
+    float:left;
+    margin-top:0.2rem;
+}
+.pay p{
+    font-size: 0.3em;
+    color: #fff;
+    text-align: center;
+    line-height: 0.7rem;
+}
+.pay p span{
+    font-size: 0.6rem;
+}
+.card-k{
+    width: 100%;
+    height: 8.36rem;
+    float: left;
+    margin-top: 0.25rem;
+    /*background: red;*/
+}
+.card {
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+    background: #fff;
+    border-top:0.1rem solid #1fe2a7;
+    border-top-left-radius: 0.1rem;
+    border-top-right-radius: 0.1rem;
+    overflow-y:auto;
+    overflow-x:hidden;
+
+}
+.card p{
+    width: 100%;
+    font-size: 0.3rem;
+    font-weight: 600;
+    color:#D2D2D2;
+    text-align: center;
+    margin-top: 0.3rem;
+}
+.card-item{
+    width: 90%;
+    height: 1rem;
+    background: #DB1A6C;
+    margin:0 auto;
+    border-radius: 0.1rem;
+    margin-top: 0.3rem;
+    position: relative;
+}
+.card-item .icon{
+    width: 17%;
+    height: 100%;
+    margin-left: 0.3rem;
+    display: inline-block;
+}
+.card-item .icon img{
+    width: 60%;
+    height: 60%;
+    margin-bottom: 0.25rem;
+}
+.card-item .yh{
+    display: inline-block;
+    font-size: 0.26rem;
+    position: absolute;
+    top:0.15rem;
+    color: #fff;
+    font-weight: 500;
+}
+.baoxian-xuanze{
+    width: 100%;
+    height: 0.7rem;
+    float: left;
+    margin-top: 0.3rem;
+    position: relative;
+}
+.model-1{
+    display: block;
+    width: 100%;
+    height: 0.7rem;
+}
+.checkbox {
+    position: relative;
+    display:block;
+    width: 100%;
+    height: 100%;
+}
+.checkbox:after, .checkbox:before {
+    display: block;
+    font-family: FontAwesome;
+    -webkit-font-feature-settings: normal;
+    -moz-font-feature-settings: normal;
+    font-feature-settings: normal;
+    -webkit-font-kerning: auto;
+    -moz-font-kerning: auto;
+    font-kerning: auto;
+    -webkit-font-language-override: normal;
+    -moz-font-language-override: normal;
+    font-language-override: normal;
+    font-stretch: normal;
+    font-style: normal;
+    font-synthesis: weight style;
+    font-variant: normal;
+    font-weight: normal;
+    text-rendering: auto;
+}
+.checkbox label {
+    width: 40%;
+    height: 100%;
+    background: #31374C;
+    margin:0 auto;
+    border-radius: 0.6rem;
+    position: relative;
+    display: block;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+.checkbox label:after {
+    content: '';
+    position: absolute;
+    width: 45%;
+    height: 80%;
+    border-radius: 0.6rem;
+    border: 0.02rem solid #3d7eff;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    background: rgba(28, 78, 207, 0.5);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    bottom: 0;
+    margin: auto;
+}
+.checkbox input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    opacity: 0;
+    cursor: pointer;
+}
+.checkbox input:hover + label:after {
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.2), 0 3px 8px 0 rgba(0, 0, 0, 0.15);
+}
+.checkbox input:checked + label:after {
+    left: 1.5rem;
+}
+
+.model-1 .checkbox input:checked + label {
+    background: #31374C;
+}
+.model-1 .checkbox input:checked + label:after {
+    background: rgba(28, 78, 207, 0.5);
+}
+.model-1 .zi{
+    float: left;
+    font-size: 0.24rem;
+    color: #fff;
+    float: left;
+    line-height:0.7rem;
+    margin-left: 0.5rem;
+}

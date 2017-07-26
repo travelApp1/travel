@@ -1,0 +1,153 @@
+body{
+    background-image: url("../img/zzl-zfyhk-bg.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.back{
+    width: 100%;
+    height: 0.45rem;
+    /*background: pink;*/
+    margin-top: 0.35rem;
+    float: left;
+}
+.back img{
+    width:6%;
+    height: 100%;
+    display: block;
+    margin-left: 0.3rem;
+}
+.welcome{
+    width: 100%;
+    height: 1.3rem;
+    /*background: green;*/
+    float: left;
+    margin-top: 0.2rem;
+    padding: 0 0.3rem;
+}
+.welcome .yhk{
+    width: 40%;
+    height: 100%;
+    display: inline-block;
+}
+.card-k{
+    width: 100%;
+    height:10rem;
+    float: left;
+    margin-top: 1rem;
+    /*background: red;*/
+}
+.card {
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+    background: #fff;
+    border-top:0.1rem solid #1fe2a7;
+    border-top-left-radius: 0.1rem;
+    border-top-right-radius: 0.1rem;
+    /*overflow-y:auto;*/
+    /*overflow-x:hidden;*/
+
+}
+.card p{
+    width: 100%;
+    font-size: 0.3rem;
+    font-weight: 600;
+    color:#D2D2D2;
+    text-align: center;
+    margin-top: 0.3rem;
+}
+.finish{
+    width: 6rem;
+    height: 1.5rem;
+    margin:0 auto;
+    /*background: pink;*/
+    margin-top: -0.8rem;
+}
+.finish img{
+    width: 100%;
+    height: 100%;
+}
+.xian1{
+    width:95%;
+    height: 0.05rem;
+    /*background: pink;*/
+    margin:0 auto;
+    margin-bottom: 0.2rem;
+}
+.xian1 img{
+    width:100%;
+    height: 100%;
+    display:block;
+}
+.information{
+    width:85%;
+    height: 1rem;
+    /*background: green;*/
+    margin:0 auto;
+}
+.information .left{
+    width: 80%;
+    height: 100%;
+    /*background: yellow;*/
+    float:left;
+}
+.information .left .zi1{
+    font-size: 0.22rem;
+    color:dodgerblue;
+    display: block;
+    font-weight: 600;
+}
+.information .left img{
+   width:40%;
+    height: 0.05rem;
+    display: block;
+    margin-top: 0.03rem;
+}
+.shuru{
+    display: block;
+    margin-top: 0.1rem;
+    outline: none;
+    font-size: 0.22rem;
+    width: 80%;
+    height: 0.4rem;
+    border:0;
+}
+.information .right{
+    width: 13%;
+    height: 70%;
+    /*background: yellow;*/
+    float: right;
+    margin-top: 0.1rem;
+    margin-right: 0.2rem;
+}
+.information .right img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.xian3{
+    width: 85%;
+    height: 0.05rem;
+    margin:0 auto;
+    margin-top: 0.1rem;
+    margin-bottom: 0.3rem;
+}
+.xian3 img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+button{
+    background: -webkit-linear-gradient(bottom right,#21C3B2,#2680C7);
+    width:100%;
+    height: 0.76rem;
+    border-radius: 1rem;
+    border:0;
+    outline: none;
+}
+button .zi{
+    width: 80%;
+    margin:0 auto;
+    font-size: 0.28rem;
+    color: #fff;
+}
