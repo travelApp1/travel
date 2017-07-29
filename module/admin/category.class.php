@@ -64,14 +64,15 @@ class category extends main
         }
         $pid = $_POST["pid"];
         $db = new db("category");
-        $result = $db->where("cid=$cid")->select();
-        foreach ($result as $v) {
-            if ($pid == $v["pid"] && $cname = $v["cname"] && $imgurl = $v["imgurl"]) {
-                $this->jump("修改成功", "index.php?m=admin&f=category&a=show");
-                exit;
-            }
-        }
-        if ($db->where("cid=$cid")->update("cname='{$cname}',pid={$pid},imgurl='{$imgurl}'") > 0) {
+//        $result = $db->where("cid=$cid")->select();
+//        foreach ($result as $v) {
+//            if ($pid == $v["pid"] && $cname = $v["cname"] && $imgurl = $v["imgurl"]) {
+//                $this->jump("修改成功", "index.php?m=admin&f=category&a=show");
+//                exit;
+//            }
+//        }
+        $result1=$db->where("cid=$cid")->update("cname='{$cname}',pid={$pid},imgurl='{$imgurl}'");
+        if ( $result1> 0) {
             $this->jump("修改成功", "index.php?m=admin&f=category&a=show");
         }
     }

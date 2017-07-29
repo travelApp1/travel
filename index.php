@@ -8,7 +8,7 @@ define("APP_PATH",ROOT_PATH."/travel");
 define("LIBS_PATH",APP_PATH."/libs");
 define("TPL_PATH",APP_PATH."/template");
 define("MODULE_PATH",APP_PATH."/module");
- $prot=substr($server["SERVER_PROTOCOL"],0,strrpos($server["SERVER_PROTOCOL"],"/"));
+$prot=substr($server["SERVER_PROTOCOL"],0,strrpos($server["SERVER_PROTOCOL"],"/"));
  $path=substr($server["SCRIPT_NAME"],0,strrpos($server["SCRIPT_NAME"],"/"));
 define("URL_PATH",$prot."://".$server["HTTP_HOST"].$path);
 define("CSS_PATH",$prot."://".$server["HTTP_HOST"].$path."/static/css");

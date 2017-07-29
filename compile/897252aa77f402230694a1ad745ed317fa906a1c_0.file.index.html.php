@@ -1,3 +1,27 @@
+<?php
+/* Smarty version 3.1.30, created on 2017-07-26 05:13:07
+  from "D:\wamp\www\travel\template\index\index.html" */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.30',
+  'unifunc' => 'content_597808c338d005_13684673',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '897252aa77f402230694a1ad745ed317fa906a1c' => 
+    array (
+      0 => 'D:\\wamp\\www\\travel\\template\\index\\index.html',
+      1 => 1501038785,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_597808c338d005_13684673 (Smarty_Internal_Template $_smarty_tpl) {
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -5,9 +29,16 @@
     <meta name="viewport"
           content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
     <title>Document</title>
-    <link rel="stylesheet" href="{CSS_PATH}/base.css">
-    <script src="{JS_PATH}/rem.js"></script>
-    <script src="{JS_PATH}/jQuery.js"></script>
+    <link rel="stylesheet" href="<?php echo CSS_PATH;?>
+/base.css">
+    <?php echo '<script'; ?>
+ src="<?php echo JS_PATH;?>
+/rem.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="<?php echo JS_PATH;?>
+/jQuery.js"><?php echo '</script'; ?>
+>
     <style>
         body {
             background: #f3f6f8;
@@ -32,7 +63,8 @@
         header {
             width: 100%;
             height: 5.2rem;
-            background: url("{IMG_PATH}/zzl-index-bg1.png") center center no-repeat;
+            background: url("<?php echo IMG_PATH;?>
+/zzl-index-bg1.png") center center no-repeat;
             background-size: 100%;
             float: left;
             position: relative;
@@ -43,7 +75,8 @@
             height: 0.8rem;
             margin: 0 auto;
             margin-top: 0.5rem;
-            background: url("{IMG_PATH}/zzl-title.png") center center no-repeat;
+            background: url("<?php echo IMG_PATH;?>
+/zzl-title.png") center center no-repeat;
             background-size: 100%;
             position: relative;
         }
@@ -55,7 +88,8 @@
             position: absolute;
             top: -0.2rem;
             left: -2.1rem;
-            background: url("{IMG_PATH}/index-zhuye.png") center center no-repeat;
+            background: url("<?php echo IMG_PATH;?>
+/index-zhuye.png") center center no-repeat;
             background-size: 100%;
         }
 
@@ -66,7 +100,8 @@
             position: absolute;
             top: -0.33rem;
             right: -2.6rem;
-            background: url("{IMG_PATH}/zzl-foot4.png") center center no-repeat;
+            background: url("<?php echo IMG_PATH;?>
+/zzl-foot4.png") center center no-repeat;
             background-size: 100%;
         }
 
@@ -98,7 +133,8 @@
         .sousuo-tu {
             width: 10%;
             height: 85%;
-            background: url("{IMG_PATH}/zzl-sousuo(1).png") center center no-repeat;
+            background: url("<?php echo IMG_PATH;?>
+/zzl-sousuo(1).png") center center no-repeat;
             background-size: 60%;
             float: right;
             position: absolute;
@@ -133,7 +169,8 @@
             height: 100%;
             background: yellow;
             float: left;
-            background: url("{IMG_PATH}/zzl-1.png") center center no-repeat;
+            background: url("<?php echo IMG_PATH;?>
+/zzl-1.png") center center no-repeat;
             background-size: 100%;
         }
 
@@ -150,7 +187,8 @@
             height: 47%;
             background: yellow;
             float: right;
-            background: url("{IMG_PATH}/zzl-2.png") center center no-repeat;
+            background: url("<?php echo IMG_PATH;?>
+/zzl-2.png") center center no-repeat;
             background-size: 100%;
         }
 
@@ -160,7 +198,8 @@
             background: yellow;
             float: left;
             margin-top: 0.25rem;
-            background: url("{IMG_PATH}/zzl-3.png") center center no-repeat;
+            background: url("<?php echo IMG_PATH;?>
+/zzl-3.png") center center no-repeat;
             background-size: 100%;
         }
 
@@ -170,7 +209,8 @@
             background: yellow;
             float: right;
             margin-top: 0.25rem;
-            background: url("{IMG_PATH}/zzl-4.png") center center no-repeat;
+            background: url("<?php echo IMG_PATH;?>
+/zzl-4.png") center center no-repeat;
             background-size: 100%;
         }
 
@@ -184,7 +224,8 @@
         .tuijian {
             width: 100%;
             height: 4.2rem;
-            background: url("{IMG_PATH}/zzl-bg2.png") center center no-repeat;
+            background: url("<?php echo IMG_PATH;?>
+/zzl-bg2.png") center center no-repeat;
             background-size: 100%;
             float: left;
             margin-top: 6rem;
@@ -201,7 +242,8 @@
         .xq {
             width: 90%;
             height: 6.5rem;
-            background: url("{IMG_PATH}/zzl-xq.png") center center no-repeat;
+            background: url("<?php echo IMG_PATH;?>
+/zzl-xq.png") center center no-repeat;
             background-size: 110%;
             float: left;
             margin-left: 0.4rem;
@@ -230,7 +272,8 @@
             width: 20%;
             height: 100%;
             float: left;
-            background: url("{IMG_PATH}/zzl-guanjian.png") center center no-repeat;
+            background: url("<?php echo IMG_PATH;?>
+/zzl-guanjian.png") center center no-repeat;
             background-size: 100%;
             margin-right: 0.1rem;
             text-align: center;
@@ -268,7 +311,8 @@
             bottom: 0;
             width: 100%;
             height: 1rem;
-            background: url("{IMG_PATH}/zzl-index3.png") center center no-repeat;
+            background: url("<?php echo IMG_PATH;?>
+/zzl-index3.png") center center no-repeat;
             background-size: 100%;
         }
 
@@ -313,16 +357,28 @@
         <div class="sousuo-tu"></div>
     </div>
     <ul class="situ">
-        {foreach $category as $v}
+        <?php
+$_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['category']->value, 'v');
+if ($_from !== null) {
+foreach ($_from as $_smarty_tpl->tpl_vars['v']->value) {
+?>
         <a href="index.php?m=index&f=lists">
             <li class="item1">
-                <img src="{$v["imgurl"]}" alt="">
-                <h6 >{$v["cname"]}</h6>
-                <h6>{$v["english"]}</h6>
+                <img src="<?php echo $_smarty_tpl->tpl_vars['v']->value["imgurl"];?>
+" alt="">
+                <h6 ><?php echo $_smarty_tpl->tpl_vars['v']->value["cname"];?>
+</h6>
+                <h6><?php echo $_smarty_tpl->tpl_vars['v']->value["english"];?>
+</h6>
 
             </li>
         </a>
-        {/foreach}
+        <?php
+}
+}
+$_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl);
+?>
+
 
     </ul>
 </header>
@@ -341,7 +397,8 @@
     </div>
 </div>
 
-<script type="text/javascript">
+<?php echo '<script'; ?>
+ type="text/javascript">
     var times = document.querySelectorAll(".kuai");
     var target = new Date(2017, 7, 12, 0, 0, 0);
     setInterval(function () {
@@ -355,7 +412,8 @@
         times[1].innerHTML = minutes < 10 ? "0" + minutes : minutes;
         times[2].innerHTML = seconds < 10 ? "0" + seconds : seconds;
     }, 1000);
-</script>
+<?php echo '</script'; ?>
+>
 
 
 <div class="xq-k">
@@ -365,7 +423,8 @@
             <li class="gjz">travel</li>
             <li class="gjz">travel</li>
         </ul>
-        <img src="{IMG_PATH}/zzl-xq-tu.png" alt="">
+        <img src="<?php echo IMG_PATH;?>
+/zzl-xq-tu.png" alt="">
         <div class="zi">更面临着极大的人生挑战那就地生存下去更临着极大的人面临着极大的人生挑战那就地生存下去更面临着极大的人生挑战那就地生存下去..</div>
     </div>
     <div class="xq">
@@ -374,7 +433,8 @@
             <li class="gjz">travel</li>
             <li class="gjz">travel</li>
         </ul>
-        <img src="{IMG_PATH}/zzl-xq-tu.png" alt="">
+        <img src="<?php echo IMG_PATH;?>
+/zzl-xq-tu.png" alt="">
         <div class="zi">更面临着极大的人生挑战那就地生存下去更面临着极大的人临着极大的人生挑战那就地生存下去更面临着极大的人生挑战那就地生存下去..</div>
     </div>
     <div class="xq">
@@ -383,7 +443,8 @@
             <li class="gjz">travel</li>
             <li class="gjz">travel</li>
         </ul>
-        <img src="{IMG_PATH}/zzl-xq-tu.png" alt="">
+        <img src="<?php echo IMG_PATH;?>
+/zzl-xq-tu.png" alt="">
         <div class="zi">更面临着极大的人生挑战那就地生存下去更面临着极大的人临着极大的人生挑战那就地生存下去更面临着极大的人生挑战那就地生存下去..</div>
     </div>
 </div>
@@ -391,18 +452,21 @@
     <a href="#">
         <div class="iconfont foot active">&#xe63a;</div>
     </a>
-    <a href="{'index.php?m=index&f=sou&a=init'}">
+    <a href="<?php echo 'index.php?m=index&f=sou&a=init';?>
+">
         <div class="iconfont foot1">&#xe616;</div>
     </a>
     <a href="#">
         <div class="iconfont foot2">&#xe62c;</div>
     </a>
-    <a href="{'index.php?m=index&f=member'}">
+    <a href="<?php echo 'index.php?m=index&f=member';?>
+">
         <div class="iconfont foot3">&#xe601;</div>
     </a>
 </footer>
 </body>
-<script>
+<?php echo '<script'; ?>
+>
     $(".iconfont").click(function () {
         var index = $(".iconfont").index(this);
         $(".iconfont").filter(".active").removeClass("active").end().eq(index).addClass("active");
@@ -411,5 +475,7 @@
         location.href = "index.php?m=index&f=member";
     })
 
-</script>
-</html>
+<?php echo '</script'; ?>
+>
+</html><?php }
+}

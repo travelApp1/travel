@@ -17,17 +17,15 @@
 <body>
 <table class="table table-bordered">
     <th>id</th>
-    <th>分类名</th>
-    <th>缩略图</th>
+    <th>列表名</th>
     <th>操作</th>
-    {foreach $category as $v }
+    {foreach $title as $v }
     <tr>
-        <td>{$v["cid"]}</td>
-        <td>{$v["cname"]}</td>
-        <td><img src="../{$v['imgurl']}" alt="" style="width: 100px;height: 100px"></td>
+        <td>{$v["id"]}</td>
+        <td>{$v["title"]}</td>
         <td>
-            <a href="index.php?m=admin&f=category&a=del&cid={$v['cid']}">删除</a>
-            <a href="index.php?m=admin&f=category&a=edit&cid={$v['cid']}" style="margin-left: 20px">编辑</a>
+            <a href="index.php?m=admin&f=lunbo&a=addLunCon">添加轮播</a>
+            <a href="" style="margin-left: 20px">查看轮播</a>
         </td>
     </tr>
     {/foreach}

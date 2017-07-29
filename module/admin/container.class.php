@@ -1,6 +1,8 @@
 <?php
 class container extends main{
     function add(){
+        $type=$_GET["type"];
+        $this->smarty->assign("type",$type);
         $this->smarty->display("addC.html");
     }
 
@@ -83,10 +85,20 @@ class container extends main{
         $this->smarty->display("showCon.html");
     }
 
+    function showCon1(){
+        $cid=$_GET["cid"];
+        $db=new db("lists");
+        $result=$db->where("cid=$cid")->select();
+        $this->smarty->assign("cid",$cid);
+        $this->smarty->assign("container",$result);
+        $this->smarty->display("showCon1.html");
+    }
+
     function show(){
+        $type=$_GET["type"];
         $db=new db("category");
         $tree=new tree();
-        $tree->getTree2(0,0,"-",$db->db,"category");
+        $tree->getTree2(0,0,"-",$db->db,"category",$type);
         $this->smarty->assign("str",$tree->str);
         $this->smarty->display("showCategory1.html");
     }

@@ -1,45 +1,4 @@
 <?php
-/*
- * 1.  回复的言论   禁止回复
- * 2.  发表的内容   禁止发表
- * 3.  注销
- * 4.  正常
- * 5.  精华         权限
- *
- *
- *     事务型操作
- *
- *     一个功能需要多个步骤去实现，叫做是事务型处理
- *
- *
- *     商城   购物车
- *
- *     shop
- *
- * id    shopname    price  num
- *  1     手机         100    10
- *
- *
- * car
- *
- * id    name    price  num
- *
- *
- * 1.    更新 lists  status =4
- * 2.    查询   lists   status=4
- * 3.    >3    member  mrole=1   禁言  4
- * 4.    <=3   member  mrole=0
- * 5.    查询   lists   status=3
- * 6.      >3   member   mrole=2  免审核  4
- * 7.     <=3    member   mrole=0
- *
- * 1.  禁止
- *
- * 2.  正常
- *
- * 3.  免审核
- *
- * */
 class lists extends main{
     function add(){
         $db=new db("lists");
@@ -116,11 +75,7 @@ class lists extends main{
             }
 
 
-          /*
-           *   0 正常
-           *   1 禁止
-           *   2 免审核
-           * */
+      
 
 
 

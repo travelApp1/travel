@@ -56,7 +56,7 @@ class tree{
     }
 
 
-    function getTree2($pid,$step,$flag,$db,$table){
+    function getTree2($pid,$step,$flag,$db,$table,$type){
         $step+=1;
         $sql="select * from ".$table." where pid=".$pid;
         $result=$db->query($sql);
@@ -73,11 +73,16 @@ class tree{
             //$str=str_repeat($flag,$step);
             if(mysqli_num_rows($re)>0) {
                 $this->str .= "<li> <span>{$catname}</span>";
-            }else{
-                $this->str .= "<li> <a href='index.php?m=admin&f=container&a=showCon&cid={$id}' target='showCon'>{$catname}</a>";
+            }else {
+                if($type=="add"){
+                    $this->str .= "<li> <a href='index.php?m=admin&f=container&a=showCon&cid={$id}' target='showCon'>{$catname}</a>";
+                }else{
+                    $this->str .= "<li> <a href='index.php?m=admin&f=container&a=showCon1&cid={$id}' target='showCon'>{$catname}</a>";
+                }
+               
             }
 
-            $this->getTree2($id, $step, $flag, $db, $table);
+            $this->getTree2($id, $step, $flag, $db, $table,$type);
 
 
         }
