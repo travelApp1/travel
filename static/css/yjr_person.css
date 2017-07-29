@@ -79,46 +79,42 @@ body {
 .banner-title {
     width: 100%;
     height: 1rem;
-    position: relative;
+    padding: 0 0.24rem;
 }
-
 .banner-fh {
-    margin-left: 0.24rem;
-    margin-top: 0.13rem;
     width: 0.6rem;
     height: 0.6rem;
-    float: left;
+    margin-top:0.3rem;
+    float:left;
+    background: #698CE1;
+    border-radius: 50%;
 }
-
 .banner-fh img {
     width: 100%;
     height: 100%;
-    float: left;
+    display: block;
 }
-
 .banner-fx {
-    margin-right: 0.24rem;
-    margin-top: 0.2rem;
     width: 1rem;
     height: 0.54rem;
+    margin-top:0.3rem;
+    float:right;
     border-radius: 0.4rem;
     border: 0.04rem solid #fff;
-    float: right;
     background: #698CE1;
     position: relative;
 }
-
 .banner-fx img {
-    height: 0.46rem;
-    width: 0.46rem;
+    height: 0.4rem;
+    width: 0.4rem;
     position: absolute;
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
     margin: auto;
+    display: block;
 }
-
 .banner-two {
     width: 100%;
     height: 1.20rem;
@@ -141,17 +137,21 @@ body {
 }
 
 .bianji, .shezhi {
-    width: 0.56rem;
+    width: 0.6rem;
+    height: 0.6rem;
+    position: absolute;
+    bottom: 0rem;
+    /*width: 0.56rem;
     height: 0.56rem;
     border-radius: 50%;
     border: 0.02rem solid #fff;
     position: absolute;
     bottom: 0.16rem;
-    background: #2758E6;
+    background: #2758E6;*/
 }
 
 .bianji img, .shezhi img {
-    width: 0.4rem;
+   /* width: 0.4rem;
     height: 0.4rem;
     border-radius: 50%;
     position: absolute;
@@ -159,9 +159,14 @@ body {
     right: 0;
     top: 0;
     bottom: 0;
-    margin: auto;
+    margin: auto;*/
 }
-
+.bianji a, .shezhi a{
+    font-size: 0.3rem;
+    color: #fff;
+    float: left;
+    font-weight: bolder;
+}
 .bianji {
     left: 1.3rem;
 }

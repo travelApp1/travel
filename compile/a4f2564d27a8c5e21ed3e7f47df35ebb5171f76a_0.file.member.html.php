@@ -1,14 +1,47 @@
+<?php
+/* Smarty version 3.1.30, created on 2017-07-26 10:50:36
+  from "D:\wamp\www\travel\template\index\member.html" */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.30',
+  'unifunc' => 'content_597857dc859128_13463795',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    'a4f2564d27a8c5e21ed3e7f47df35ebb5171f76a' => 
+    array (
+      0 => 'D:\\wamp\\www\\travel\\template\\index\\member.html',
+      1 => 1501059035,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_597857dc859128_13463795 (Smarty_Internal_Template $_smarty_tpl) {
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>个人中心</title>
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
-    <link rel="stylesheet" href="{CSS_PATH}/base.css">
-    <link rel="stylesheet" href="{CSS_PATH}/yjr_person.css">
-    <script src="{JS_PATH}/rem.js"></script>
-    <script src="{JS_PATH}/jQuery.js"></script>
-    <script>
+    <link rel="stylesheet" href="<?php echo CSS_PATH;?>
+/base.css">
+    <link rel="stylesheet" href="<?php echo CSS_PATH;?>
+/yjr_person.css">
+    <?php echo '<script'; ?>
+ src="<?php echo JS_PATH;?>
+/rem.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="<?php echo JS_PATH;?>
+/jQuery.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+>
         $(function () {
             $(".banner-fh").click(function () {
                 history.go(-1);
@@ -22,7 +55,8 @@
                 $("body").css("overflow","");
             });
         });
-    </script>
+    <?php echo '</script'; ?>
+>
     <style>
         .banner-fh{
            background:#2A70EF;
@@ -67,22 +101,26 @@
         <ul>
             <li>
                 <a href="">
-                    <img src="{IMG_PATH}/fx-qq.png" alt="">
+                    <img src="<?php echo IMG_PATH;?>
+/fx-qq.png" alt="">
                 </a>
             </li>
             <li>
                 <a href="">
-                    <img src="{IMG_PATH}/fx-wx.png" alt="">
+                    <img src="<?php echo IMG_PATH;?>
+/fx-wx.png" alt="">
                 </a>
             </li>
             <li>
                 <a href="">
-                    <img src="{IMG_PATH}/fx-wb.png" alt="">
+                    <img src="<?php echo IMG_PATH;?>
+/fx-wb.png" alt="">
                 </a>
             </li>
             <li>
                 <a href="">
-                    <img src="{IMG_PATH}/gd.png" alt="" class="fxgd">
+                    <img src="<?php echo IMG_PATH;?>
+/gd.png" alt="" class="fxgd">
                 </a>
             </li>
         </ul>
@@ -93,46 +131,60 @@
         <div class="zhe"></div>
         <div class="banner-title">
             <div class="banner-fh">
-                <img src="{IMG_PATH}/yjr_per_fh.png" alt="">
+                <img src="<?php echo IMG_PATH;?>
+/yjr_per_fh.png" alt="">
             </div>
             <div class="banner-fx">
-                <img src="{IMG_PATH}/yjr_per_fx.png" alt="">
+                <img src="<?php echo IMG_PATH;?>
+/yjr_per_fx.png" alt="">
             </div>
         </div>
         <div class="banner-two">
             <div class="banner-tx">
-                {if $mphoto}
-                <img src="{$mphoto}" alt="">
-                {else}
-                <img src="{IMG_PATH}/14.png" alt="">
-                {/if}
+                <?php if ($_smarty_tpl->tpl_vars['mphoto']->value) {?>
+                <img src="<?php echo $_smarty_tpl->tpl_vars['mphoto']->value;?>
+" alt="">
+                <?php } else { ?>
+                <img src="<?php echo IMG_PATH;?>
+/14.png" alt="">
+                <?php }?>
             </div>
             <div class="bianji">
-                <a href="{'index.php?m=index&f=xiugai'}">
-                    <img src="{IMG_PATH}/yjr_per_bj.png" alt="">
+                <a href="<?php echo 'index.php?m=index&f=xiugai';?>
+">
+                    <img src="<?php echo IMG_PATH;?>
+/yjr_per_bj.png" alt="">
                     <!--编辑-->
                 </a>
             </div>
             <div class="shezhi">
-                <a href="{'index.php?m=index&f=shezhi'}">
-                    <img src="{IMG_PATH}/yjr_per_sz.png" alt="">
+                <a href="<?php echo 'index.php?m=index&f=shezhi';?>
+">
+                    <img src="<?php echo IMG_PATH;?>
+/yjr_per_sz.png" alt="">
                     <!--设置-->
                 </a>
             </div>
         </div>
         <p class="banner-three">
-            {$mname}
+            <?php echo $_smarty_tpl->tpl_vars['mname']->value;?>
+
         </p>
         <p class="banner-four">
             I like this music so  make me  amazing
         </p>
         <p class="banner-sl">··············</p>
         <p class="banner-wjx">
-            <img src="{IMG_PATH}/yjr_per_wjx.png" alt="">
-            <img src="{IMG_PATH}/yjr_per_wjx.png" alt="">
-            <img src="{IMG_PATH}/yjr_per_wjx.png" alt="">
-            <img src="{IMG_PATH}/yjr_per_wjx.png" alt="">
-            <img src="{IMG_PATH}/yjr_per_wjx.png" alt="">
+            <img src="<?php echo IMG_PATH;?>
+/yjr_per_wjx.png" alt="">
+            <img src="<?php echo IMG_PATH;?>
+/yjr_per_wjx.png" alt="">
+            <img src="<?php echo IMG_PATH;?>
+/yjr_per_wjx.png" alt="">
+            <img src="<?php echo IMG_PATH;?>
+/yjr_per_wjx.png" alt="">
+            <img src="<?php echo IMG_PATH;?>
+/yjr_per_wjx.png" alt="">
         </p>
     </div>
 </header>
@@ -146,7 +198,8 @@
                 <div class="like-zi">share</div>
             </div>
             <div class="jing">
-                <img src="{IMG_PATH}/yjr_per_jing.png" alt="">
+                <img src="<?php echo IMG_PATH;?>
+/yjr_per_jing.png" alt="">
             </div>
             <div class="chart">
                 <div class="chart-one"></div>
@@ -166,7 +219,8 @@
                 <div class="like-zi">share</div>
             </div>
             <div class="jing">
-                <img src="{IMG_PATH}/yjr_per_jing.png" alt="">
+                <img src="<?php echo IMG_PATH;?>
+/yjr_per_jing.png" alt="">
             </div>
             <div class="chart">
                 <div class="chart-one"></div>
@@ -183,4 +237,5 @@
 </div>
 
 </body>
-</html>
+</html><?php }
+}

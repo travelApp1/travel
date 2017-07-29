@@ -1,13 +1,48 @@
+<?php
+/* Smarty version 3.1.30, created on 2017-07-26 05:15:36
+  from "D:\wamp\www\travel\template\index\sousuo.html" */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.30',
+  'unifunc' => 'content_59780958c10987_38806750',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    'b80029968266e757fbaa5e5949b4c925b7f4df6f' => 
+    array (
+      0 => 'D:\\wamp\\www\\travel\\template\\index\\sousuo.html',
+      1 => 1501038935,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_59780958c10987_38806750 (Smarty_Internal_Template $_smarty_tpl) {
+?>
 <!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
-    <link rel="stylesheet" href="{CSS_PATH}/base.css ">
-    <link rel="stylesheet" href="{CSS_PATH}/dtt-sousuo.css">
-    <script src="{JS_PATH}/jQuery.js"></script>
-    <script src="{JS_PATH}/back.js"></script>
-    <script src="{JS_PATH}/rem.js"></script>
+    <link rel="stylesheet" href="<?php echo CSS_PATH;?>
+/base.css ">
+    <link rel="stylesheet" href="<?php echo CSS_PATH;?>
+/dtt-sousuo.css">
+    <?php echo '<script'; ?>
+ src="<?php echo JS_PATH;?>
+/jQuery.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="<?php echo JS_PATH;?>
+/back.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="<?php echo JS_PATH;?>
+/rem.js"><?php echo '</script'; ?>
+>
     <title>Document</title>
     <style>
         .header{
@@ -30,10 +65,12 @@
 <div class="header">
     <div class="header-top" style="position: relative;">
         <div class="back history">
-            <img src="{IMG_PATH}/dtt-pay-back_03.png" alt="">
+            <img src="<?php echo IMG_PATH;?>
+/dtt-pay-back_03.png" alt="">
         </div>
         <div class="back" style="position:absolute;right:0;top: 0;">
-            <img src="{IMG_PATH}/dtt-sousuo-shezhi_03.png" alt="">
+            <img src="<?php echo IMG_PATH;?>
+/dtt-sousuo-shezhi_03.png" alt="">
         </div>
     </div>
     <div class="da-bt">
@@ -50,14 +87,16 @@
     <div class="sousuo-box">
         <input type="text" placeholder="请在此查找您所需要的内容">
         <div class="yuyin">
-            <img src="{IMG_PATH}/dtt-sousuo_03.png" alt="">
+            <img src="<?php echo IMG_PATH;?>
+/dtt-sousuo_03.png" alt="">
         </div>
     </div>
 </div>
 <div class="main">
     <div class="main-bt">
         <div class="main-bt-img">
-            <img src="{IMG_PATH}/dtt-sousuo_07.png" alt="">
+            <img src="<?php echo IMG_PATH;?>
+/dtt-sousuo_07.png" alt="">
         </div>
         <div class="mian-bt-icon">
            <div></div>
@@ -70,7 +109,8 @@
     <div class="main-nr">
         <div class="main-nr-box">
             <div class="main-nr-icon">
-                <img src="{IMG_PATH}/dtt-sousuo-icon2%20(2).png" alt="">
+                <img src="<?php echo IMG_PATH;?>
+/dtt-sousuo-icon2%20(2).png" alt="">
             </div>
             <div class="main-nr-zi">
                 <p class="mnz-da">HOTEL</p>
@@ -79,7 +119,8 @@
         </div>
         <div class="main-nr-box">
             <div class="main-nr-icon">
-                <img src="{IMG_PATH}/dtt-sousuo-icon2%20(2).png" alt="">
+                <img src="<?php echo IMG_PATH;?>
+/dtt-sousuo-icon2%20(2).png" alt="">
             </div>
             <div class="main-nr-zi">
                 <p class="mnz-da">HOTEL</p>
@@ -95,10 +136,12 @@
 
     <div class="main-bt">
         <div class="main-bt-img">
-            <img src="{IMG_PATH}/dtt-sousuo_15.png" alt="">
+            <img src="<?php echo IMG_PATH;?>
+/dtt-sousuo_15.png" alt="">
         </div>
         <div class="mian-bt-icon tuijian">
-            <img src="{IMG_PATH}/dtt-sousuo_17.png" alt="">
+            <img src="<?php echo IMG_PATH;?>
+/dtt-sousuo_17.png" alt="">
         </div>
     </div>
     <div class="main-nr">
@@ -123,21 +166,25 @@
 
     <div class="main-bt">
         <div class="main-bt-img">
-            <img src="{IMG_PATH}/dtt-sousuo_25.png" alt="">
+            <img src="<?php echo IMG_PATH;?>
+/dtt-sousuo_25.png" alt="">
         </div>
     </div>
     <div class="main-nr-gdbox">
         <ul class="main-nr-zhuti">
             <li>
                   <div class="main-nr-tu">
-                      <img src="{IMG_PATH}/dtt-sousuo-tupian_03.png" alt="">
+                      <img src="<?php echo IMG_PATH;?>
+/dtt-sousuo-tupian_03.png" alt="">
                       <div class="main-zhezhao">
-                          <img src="{IMG_PATH}/dtt-sousuo_touming.png" alt="">
+                          <img src="<?php echo IMG_PATH;?>
+/dtt-sousuo_touming.png" alt="">
                       </div>
                   </div>
                 <div class="main-nr-zhuti-bottom">
                     <div class="jiangbei">
-                        <img src="{IMG_PATH}/dtt-sousuo_jiangbei.png" alt="">
+                        <img src="<?php echo IMG_PATH;?>
+/dtt-sousuo_jiangbei.png" alt="">
                     </div>
                     <div class="mnztb-bt">
                         <p>UTIFCHRIST.Q</p>
@@ -146,13 +193,15 @@
                     <div class="dianzan">
                         <div class="zan">
                             <div class="zan-tu">
-                                <img src="{IMG_PATH}/dtt-sousuo-xin_11.png" alt="">
+                                <img src="<?php echo IMG_PATH;?>
+/dtt-sousuo-xin_11.png" alt="">
                             </div>
                             <p>28390</p>
                         </div>
                         <div class="zan">
                             <div class="zan-tu">
-                                <img src="{IMG_PATH}/dtt-sousuo-xin_11.png" alt="">
+                                <img src="<?php echo IMG_PATH;?>
+/dtt-sousuo-xin_11.png" alt="">
                             </div>
                             <p>28390</p>
                         </div>
@@ -177,7 +226,8 @@
                     </div>
                     <div class="gerenxinxi">
                         <div class="gerentouxiang">
-                            <img src="{IMG_PATH}/dtt-sousuo_touxiang.png" alt="">
+                            <img src="<?php echo IMG_PATH;?>
+/dtt-sousuo_touxiang.png" alt="">
                         </div>
                         <div class="geren-right">
                             <div class="geren-top">T.PAIN</div>
@@ -189,14 +239,17 @@
             </li>
             <li>
                 <div class="main-nr-tu">
-                    <img src="{IMG_PATH}/dtt-sousuo-tupian_03.png" alt="">
+                    <img src="<?php echo IMG_PATH;?>
+/dtt-sousuo-tupian_03.png" alt="">
                     <div class="main-zhezhao">
-                        <img src="{IMG_PATH}/dtt-sousuo_touming.png" alt="">
+                        <img src="<?php echo IMG_PATH;?>
+/dtt-sousuo_touming.png" alt="">
                     </div>
                 </div>
                 <div class="main-nr-zhuti-bottom">
                     <div class="jiangbei">
-                        <img src="{IMG_PATH}/dtt-sousuo_jiangbei.png" alt="">
+                        <img src="<?php echo IMG_PATH;?>
+/dtt-sousuo_jiangbei.png" alt="">
                     </div>
                     <div class="mnztb-bt">
                         <p>UTIFCHRIST.Q</p>
@@ -205,13 +258,15 @@
                     <div class="dianzan">
                         <div class="zan">
                             <div class="zan-tu">
-                                <img src="{IMG_PATH}/dtt-sousuo-xin_11.png" alt="">
+                                <img src="<?php echo IMG_PATH;?>
+/dtt-sousuo-xin_11.png" alt="">
                             </div>
                             <p>28390</p>
                         </div>
                         <div class="zan">
                             <div class="zan-tu">
-                                <img src="{IMG_PATH}/dtt-sousuo-xin_11.png" alt="">
+                                <img src="<?php echo IMG_PATH;?>
+/dtt-sousuo-xin_11.png" alt="">
                             </div>
                             <p>28390</p>
                         </div>
@@ -236,7 +291,8 @@
                     </div>
                     <div class="gerenxinxi">
                         <div class="gerentouxiang">
-                            <img src="{IMG_PATH}/dtt-sousuo_touxiang.png" alt="">
+                            <img src="<?php echo IMG_PATH;?>
+/dtt-sousuo_touxiang.png" alt="">
                         </div>
                         <div class="geren-right">
                             <div class="geren-top">T.PAIN</div>
@@ -248,14 +304,17 @@
             </li>
             <li>
                 <div class="main-nr-tu">
-                    <img src="{IMG_PATH}/dtt-sousuo-tupian_03.png" alt="">
+                    <img src="<?php echo IMG_PATH;?>
+/dtt-sousuo-tupian_03.png" alt="">
                     <div class="main-zhezhao">
-                        <img src="{IMG_PATH}/dtt-sousuo_touming.png" alt="">
+                        <img src="<?php echo IMG_PATH;?>
+/dtt-sousuo_touming.png" alt="">
                     </div>
                 </div>
                 <div class="main-nr-zhuti-bottom">
                     <div class="jiangbei">
-                        <img src="{IMG_PATH}/dtt-sousuo_jiangbei.png" alt="">
+                        <img src="<?php echo IMG_PATH;?>
+/dtt-sousuo_jiangbei.png" alt="">
                     </div>
                     <div class="mnztb-bt">
                         <p>UTIFCHRIST.Q</p>
@@ -264,13 +323,15 @@
                     <div class="dianzan">
                         <div class="zan">
                             <div class="zan-tu">
-                                <img src="{IMG_PATH}/dtt-sousuo-xin_11.png" alt="">
+                                <img src="<?php echo IMG_PATH;?>
+/dtt-sousuo-xin_11.png" alt="">
                             </div>
                             <p>28390</p>
                         </div>
                         <div class="zan">
                             <div class="zan-tu">
-                                <img src="{IMG_PATH}/dtt-sousuo-xin_11.png" alt="">
+                                <img src="<?php echo IMG_PATH;?>
+/dtt-sousuo-xin_11.png" alt="">
                             </div>
                             <p>28390</p>
                         </div>
@@ -295,7 +356,8 @@
                     </div>
                     <div class="gerenxinxi">
                         <div class="gerentouxiang">
-                            <img src="{IMG_PATH}/dtt-sousuo_touxiang.png" alt="">
+                            <img src="<?php echo IMG_PATH;?>
+/dtt-sousuo_touxiang.png" alt="">
                         </div>
                         <div class="geren-right">
                             <div class="geren-top">T.PAIN</div>
@@ -307,14 +369,17 @@
             </li>
             <li>
                 <div class="main-nr-tu">
-                    <img src="{IMG_PATH}/dtt-sousuo-tupian_03.png" alt="">
+                    <img src="<?php echo IMG_PATH;?>
+/dtt-sousuo-tupian_03.png" alt="">
                     <div class="main-zhezhao">
-                        <img src="{IMG_PATH}/dtt-sousuo_touming.png" alt="">
+                        <img src="<?php echo IMG_PATH;?>
+/dtt-sousuo_touming.png" alt="">
                     </div>
                 </div>
                 <div class="main-nr-zhuti-bottom">
                     <div class="jiangbei">
-                        <img src="{IMG_PATH}/dtt-sousuo_jiangbei.png" alt="">
+                        <img src="<?php echo IMG_PATH;?>
+/dtt-sousuo_jiangbei.png" alt="">
                     </div>
                     <div class="mnztb-bt">
                         <p>UTIFCHRIST.Q</p>
@@ -323,13 +388,15 @@
                     <div class="dianzan">
                         <div class="zan">
                             <div class="zan-tu">
-                                <img src="{IMG_PATH}/dtt-sousuo-xin_11.png" alt="">
+                                <img src="<?php echo IMG_PATH;?>
+/dtt-sousuo-xin_11.png" alt="">
                             </div>
                             <p>28390</p>
                         </div>
                         <div class="zan">
                             <div class="zan-tu">
-                                <img src="{IMG_PATH}/dtt-sousuo-xin_11.png" alt="">
+                                <img src="<?php echo IMG_PATH;?>
+/dtt-sousuo-xin_11.png" alt="">
                             </div>
                             <p>28390</p>
                         </div>
@@ -354,7 +421,8 @@
                     </div>
                     <div class="gerenxinxi">
                         <div class="gerentouxiang">
-                            <img src="{IMG_PATH}/dtt-sousuo_touxiang.png" alt="">
+                            <img src="<?php echo IMG_PATH;?>
+/dtt-sousuo_touxiang.png" alt="">
                         </div>
                         <div class="geren-right">
                             <div class="geren-top">T.PAIN</div>
@@ -366,14 +434,17 @@
             </li>
             <li>
                 <div class="main-nr-tu">
-                    <img src="{IMG_PATH}/dtt-sousuo-tupian_03.png" alt="">
+                    <img src="<?php echo IMG_PATH;?>
+/dtt-sousuo-tupian_03.png" alt="">
                     <div class="main-zhezhao">
-                        <img src="{IMG_PATH}/dtt-sousuo_touming.png" alt="">
+                        <img src="<?php echo IMG_PATH;?>
+/dtt-sousuo_touming.png" alt="">
                     </div>
                 </div>
                 <div class="main-nr-zhuti-bottom">
                     <div class="jiangbei">
-                        <img src="{IMG_PATH}/dtt-sousuo_jiangbei.png" alt="">
+                        <img src="<?php echo IMG_PATH;?>
+/dtt-sousuo_jiangbei.png" alt="">
                     </div>
                     <div class="mnztb-bt">
                         <p>UTIFCHRIST.Q</p>
@@ -382,13 +453,15 @@
                     <div class="dianzan">
                         <div class="zan">
                             <div class="zan-tu">
-                                <img src="{IMG_PATH}/dtt-sousuo-xin_11.png" alt="">
+                                <img src="<?php echo IMG_PATH;?>
+/dtt-sousuo-xin_11.png" alt="">
                             </div>
                             <p>28390</p>
                         </div>
                         <div class="zan">
                             <div class="zan-tu">
-                                <img src="{IMG_PATH}/dtt-sousuo-xin_11.png" alt="">
+                                <img src="<?php echo IMG_PATH;?>
+/dtt-sousuo-xin_11.png" alt="">
                             </div>
                             <p>28390</p>
                         </div>
@@ -413,7 +486,8 @@
                     </div>
                     <div class="gerenxinxi">
                         <div class="gerentouxiang">
-                            <img src="{IMG_PATH}/dtt-sousuo_touxiang.png" alt="">
+                            <img src="<?php echo IMG_PATH;?>
+/dtt-sousuo_touxiang.png" alt="">
                         </div>
                         <div class="geren-right">
                             <div class="geren-top">T.PAIN</div>
@@ -425,14 +499,17 @@
             </li>
             <li>
                 <div class="main-nr-tu">
-                    <img src="{IMG_PATH}/dtt-sousuo-tupian_03.png" alt="">
+                    <img src="<?php echo IMG_PATH;?>
+/dtt-sousuo-tupian_03.png" alt="">
                     <div class="main-zhezhao">
-                        <img src="{IMG_PATH}/dtt-sousuo_touming.png" alt="">
+                        <img src="<?php echo IMG_PATH;?>
+/dtt-sousuo_touming.png" alt="">
                     </div>
                 </div>
                 <div class="main-nr-zhuti-bottom">
                     <div class="jiangbei">
-                        <img src="{IMG_PATH}/dtt-sousuo_jiangbei.png" alt="">
+                        <img src="<?php echo IMG_PATH;?>
+/dtt-sousuo_jiangbei.png" alt="">
                     </div>
                     <div class="mnztb-bt">
                         <p>UTIFCHRIST.Q</p>
@@ -441,13 +518,15 @@
                     <div class="dianzan">
                         <div class="zan">
                             <div class="zan-tu">
-                                <img src="{IMG_PATH}/dtt-sousuo-xin_11.png" alt="">
+                                <img src="<?php echo IMG_PATH;?>
+/dtt-sousuo-xin_11.png" alt="">
                             </div>
                             <p>28390</p>
                         </div>
                         <div class="zan">
                             <div class="zan-tu">
-                                <img src="{IMG_PATH}/dtt-sousuo-xin_11.png" alt="">
+                                <img src="<?php echo IMG_PATH;?>
+/dtt-sousuo-xin_11.png" alt="">
                             </div>
                             <p>28390</p>
                         </div>
@@ -472,7 +551,8 @@
                     </div>
                     <div class="gerenxinxi">
                         <div class="gerentouxiang">
-                            <img src="{IMG_PATH}/dtt-sousuo_touxiang.png" alt="">
+                            <img src="<?php echo IMG_PATH;?>
+/dtt-sousuo_touxiang.png" alt="">
                         </div>
                         <div class="geren-right">
                             <div class="geren-top">T.PAIN</div>
@@ -486,7 +566,8 @@
     </div>
 </div>
 </body>
-<script>
+<?php echo '<script'; ?>
+>
     //设计稿的宽度
     //字体大小 100px
     (function(){
@@ -503,9 +584,11 @@
         window.onresize=resize;//让屏幕适应
         window.addEventListener("orientationchange",resize);
     })();
-</script>
+<?php echo '</script'; ?>
+>
 
-<script>
+<?php echo '<script'; ?>
+>
     var inner=document.querySelector(".main-nr-zhuti");
     var box=document.querySelector(".main-nr-gdbox");
     var lis=document.querySelectorAll(".main-nr-zhuti li");
@@ -528,7 +611,8 @@
         cx=e.changedTouches[0].clientX;//移动后的位置
         mx=cx-sx;//应该移动的位置
         dir=mx<0?"left":"right";
-        inner.style.transform=`translate(${moveX+mx}px)`;
+        inner.style.transform=`translate($<?php echo 'moveX'+'mx';?>
+px)`;
     })
     inner.addEventListener("touchend",function (e) {
         var o=e.timeStamp;
@@ -561,6 +645,8 @@
         inner.style.transition="all 1s";
         inner.style.transform="translateX("+moveX+"px)";
     })
-</script>
+<?php echo '</script'; ?>
+>
 
-</html>
+</html><?php }
+}
