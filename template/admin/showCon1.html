@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .con {
+            width: 38%;
+            height: 120px;
+            overflow: hidden;
+        }
+        td{
+            margin: 0 5px;
+            align-items: center;
+            vertical-align: middle;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .opt{
+            width:100px;
+            height:40px;
+            background: #cccc77;
+            text-align: center;
+            line-height: 40px;
+            border-radius: 5px;
+            background: url("{IMG_PATH}/inputbg.png")center center no-repeat;
+            background-size: 100%;
+            color: #fff;
+            margin: 10px;
+        }
+        .opt a{
+            display: inline-block;
+            width:100%;
+            height:100%;
+            color:#fff;
+            text-decoration: none;
+        }
+        table,th,tr,td{
+            margin-left: 10px;
+            border: 1px solid #066794;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        table{
+            margin-top: 40px;
+            width:98%;
+        }
+        th{
+            line-height: 40px;
+        }
+        .con>div{
+            text-indent:2em;
+            width:100%;
+            height:100%;
+            max-width: 100%;
+            max-height: 120px;
+            line-height: 37px;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 3;
+            overflow: hidden;
+        }
+        .tr,td{
+            height: 120px;
+        }
+        .ti{
+            max-width:150px;
+        }
+    </style>
+</head>
+<body>
+
+<table>
+    <tr>
+        <th>标题</th>
+        <th>简介</th>
+        <th>缩略图</th>
+        <th>操作</th>
+    </tr>
+    {if $container}
+    {foreach $container as $v}
+    <tr class="tr">
+        <td class="ti">
+            <h3 class="h4">
+                {$v["title"]}
+            </h3>
+        </td>
+        <td class="con">
+            <div>{$v["con"]}</div>
+        </td>
+        <td>
+            <img src="../{$v['imgurl']}" width="120" height="120" alt="">
+        </td>
+        <td><a href="index.php?m=admin&f=container&a=delCon&id={$v['id']}&cid={$cid}">删除</a>
+            <a href="index.php?m=admin&f=container&a=editCon&id={$v['id']}&cid={$cid}">编辑</a></td>
+    </tr>
+    {/foreach}
+    {else}
+    <div style="text-align: center;line-height: 30px">
+        没有任何内容
+    </div>
+    {/if}
+</table>
+</body>
+</html>

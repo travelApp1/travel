@@ -1,9 +1,36 @@
+<?php
+/* Smarty version 3.1.30, created on 2017-07-26 05:46:13
+  from "D:\wamp\www\travel\template\admin\main.html" */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.30',
+  'unifunc' => 'content_59781085d4f8d2_75890888',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '4c9bd69cbe261e8052e22c8c51c812e31605b06b' => 
+    array (
+      0 => 'D:\\wamp\\www\\travel\\template\\admin\\main.html',
+      1 => 1501040772,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_59781085d4f8d2_75890888 (Smarty_Internal_Template $_smarty_tpl) {
+?>
 <!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <script src="{JS_PATH}/jQuery.js"></script>
+    <?php echo '<script'; ?>
+ src="<?php echo JS_PATH;?>
+/jQuery.js"><?php echo '</script'; ?>
+>
 </head>
 <style>
     *{
@@ -17,7 +44,8 @@
     body,html{
         width: 100%;
         height: 100%;
-        background-image:url("{IMG_PATH}/himg/33.png");
+        background-image:url("<?php echo IMG_PATH;?>
+/himg/33.png");
         overflow: hidden;
     }
     header{
@@ -156,7 +184,8 @@
     }
 
 </style>
-<script>
+<?php echo '<script'; ?>
+>
     $(function () {
         $("li span").click(function () {
             $(this).nextAll("ul").slideToggle();
@@ -165,11 +194,13 @@
         var mytime=myDate.toLocaleString( );      //获取当前时间
         $(".back").html(mytime);
     })
-</script>
+<?php echo '</script'; ?>
+>
 <body>
 <header>
     <div class="header-k">
-        <div class="zi">欢迎 <span style="color: red">{$uname}</span> 进入新闻管理系统</div>
+        <div class="zi">欢迎 <span style="color: red"><?php echo $_smarty_tpl->tpl_vars['uname']->value;?>
+</span> 进入新闻管理系统</div>
         <div class="back"></div>
     </div>
 </header>
@@ -177,21 +208,26 @@
     <div class="left">
         <div class="gr">
             <div class="title">行者直播</div>
-            <a href="../senlinyuzhuang/html/sy.php" target="_blank"><img src="{IMG_PATH}/himg//1.jpg" alt=""></a>
+            <a href="../senlinyuzhuang/html/sy.php" target="_blank"><img src="<?php echo IMG_PATH;?>
+/himg//1.jpg" alt=""></a>
             <!--            <div class="zi">公司地址:太原市小店区</div>-->
-            <div class="zi" style="margin-bottom: 20px;color: #0C912E"><a href="{'index.php?m=admin&f=login&a=logout'}" target="_blank">进入主页</a> &nbsp;<a href="{'index.php?m=admin&f=login&a=logout'}">退出登录</a></div>
+            <div class="zi" style="margin-bottom: 20px;color: #0C912E"><a href="<?php echo 'index.php?m=admin&f=login&a=logout';?>
+" target="_blank">进入主页</a> &nbsp;<a href="<?php echo 'index.php?m=admin&f=login&a=logout';?>
+">退出登录</a></div>
         </div>
         <div class="h5">
-            {if $rid==1}
+            <?php if ($_smarty_tpl->tpl_vars['rid']->value == 1) {?>
             <ul>
                 <li>
                     <a href="javaScript:;"></a><span><div class="anniu">用户管理</div></span>
                     <ul class="small">
                         <li>
-                            <a href="{'index.php?m=admin&f=user&a=add'}" target="iframe">添加用户</a>
+                            <a href="<?php echo 'index.php?m=admin&f=user&a=add';?>
+" target="iframe">添加用户</a>
                         </li>
                         <li>
-                            <a href="{'index.php?m=admin&f=user&a=showUser'}" target="iframe">查看用户</a>
+                            <a href="<?php echo 'index.php?m=admin&f=user&a=showUser';?>
+" target="iframe">查看用户</a>
                         </li>
                     </ul>
                 </li>
@@ -202,25 +238,29 @@
                     <a href="javaScript:;"></a><span><div class="anniu">角色管理</div></span>
                     <ul class="small">
                         <li>
-                            <a href="{'index.php?m=admin&f=role&a=add'}" target="iframe">添加角色</a>
+                            <a href="<?php echo 'index.php?m=admin&f=role&a=add';?>
+" target="iframe">添加角色</a>
                         </li>
                         <li>
-                            <a href="{'index.php?m=admin&f=role&a=showRole'}" target="iframe">查看角色</a>
+                            <a href="<?php echo 'index.php?m=admin&f=role&a=showRole';?>
+" target="iframe">查看角色</a>
                         </li>
                     </ul>
                 </li>
 
             </ul>
-            {/if}
+            <?php }?>
             <ul>
                 <li>
                     <a href="javaScript:;"></a><span><div class="anniu">会员管理</div></span>
                     <ul class="small">
                         <li>
-                            <a href="{'index.php?m=admin&f=member&a=add'}" target="iframe">添加会员</a>
+                            <a href="<?php echo 'index.php?m=admin&f=member&a=add';?>
+" target="iframe">添加会员</a>
                         </li>
                         <li>
-                            <a href="{'index.php?m=admin&f=member&a=show'}" target="iframe">查看会员</a>
+                            <a href="<?php echo 'index.php?m=admin&f=member&a=show';?>
+" target="iframe">查看会员</a>
                         </li>
                     </ul>
                 </li>
@@ -245,10 +285,12 @@
                     <a href="javaScript:;"></a><span><div class="anniu">内容管理</div></span>
                     <ul class="small">
                         <li>
-                            <a href="{'index.php?m=admin&f=container&a=add&type=add'}" target="iframe">添加内容</a>
+                            <a href="<?php echo 'index.php?m=admin&f=container&a=add&type=add';?>
+" target="iframe">添加内容</a>
                         </li>
                         <li>
-                            <a href="{'index.php?m=admin&f=container&a=add&type=cat'}" target="iframe">查看内容</a>
+                            <a href="<?php echo 'index.php?m=admin&f=container&a=add&type=cat';?>
+" target="iframe">查看内容</a>
                         </li>
                     </ul>
                 </li>
@@ -259,7 +301,8 @@
                     <a href="javaScript:;"></a><span><div class="anniu">轮播管理</div></span>
                     <ul class="small">
                         <li>
-                            <a href="{'index.php?m=admin&f=lunbo&a=init'}" target="iframe">添加轮播</a>
+                            <a href="<?php echo 'index.php?m=admin&f=lunbo&a=init';?>
+" target="iframe">添加轮播</a>
                         </li>
                         <li>
                             <a href="javascript:;" target="iframe">查看内容</a>
@@ -277,9 +320,11 @@
         </div>
     </div>
     <div class="right">
-        <iframe src="{'index.php?m=admin&f=login&a=welcome'}" frameborder="0" name="iframe"></iframe>
+        <iframe src="<?php echo 'index.php?m=admin&f=login&a=welcome';?>
+" frameborder="0" name="iframe"></iframe>
     </div>
 </div>
 
 </body>
-</html>
+</html><?php }
+}
