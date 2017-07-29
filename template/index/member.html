@@ -23,6 +23,43 @@
             });
         });
     </script>
+    <style>
+        .banner-fh{
+           background:#2A70EF;
+        }
+        .banner-fx{
+            background:#2A70EF;
+        }
+        .bianji, .shezhi {
+            width: 0.56rem;
+            height: 0.56rem;
+            border-radius: 50%;
+            border: 0.02rem solid #fff;
+            position: absolute;
+            bottom: 0.16rem;
+        }
+
+        .bianji img, .shezhi img {
+            width: 0.4rem;
+            height: 0.4rem;
+            border-radius: 50%;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+
+        .bianji {
+            left: 1.3rem;
+        }
+
+        .shezhi {
+            right: 1.3rem;
+        }
+
+    </style>
 </head>
 <body>
 <div class="body-zhe">
@@ -73,11 +110,13 @@
             <div class="bianji">
                 <a href="{'index.php?m=index&f=xiugai'}">
                     <img src="{IMG_PATH}/yjr_per_bj.png" alt="">
+                    <!--编辑-->
                 </a>
             </div>
             <div class="shezhi">
                 <a href="{'index.php?m=index&f=shezhi'}">
                     <img src="{IMG_PATH}/yjr_per_sz.png" alt="">
+                    <!--设置-->
                 </a>
             </div>
         </div>
