@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-26 05:13:07
+/* Smarty version 3.1.30, created on 2017-07-29 04:08:00
   from "D:\wamp\www\travel\template\index\index.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_597808c338d005_13684673',
+  'unifunc' => 'content_597bee00f2f259_74677961',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '897252aa77f402230694a1ad745ed317fa906a1c' => 
     array (
       0 => 'D:\\wamp\\www\\travel\\template\\index\\index.html',
-      1 => 1501038785,
+      1 => 1501293591,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_597808c338d005_13684673 (Smarty_Internal_Template $_smarty_tpl) {
+function content_597bee00f2f259_74677961 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -82,23 +82,21 @@ function content_597808c338d005_13684673 (Smarty_Internal_Template $_smarty_tpl)
         }
 
         .icon1 {
-            width: 0.44rem;
-            height: 0.44rem;
-            background: pink;
+            width: 0.4rem;
+            height: 0.4rem;
             position: absolute;
-            top: -0.2rem;
-            left: -2.1rem;
+            top: 0.2rem;
+            left: -2rem;
             background: url("<?php echo IMG_PATH;?>
 /index-zhuye.png") center center no-repeat;
             background-size: 100%;
         }
 
         .icon2 {
-            width: 1rem;
-            height: 1rem;
-            background: pink;
+            width: 1.2rem;
+            height: 1.2rem;
             position: absolute;
-            top: -0.33rem;
+            top: 0.01rem;
             right: -2.6rem;
             background: url("<?php echo IMG_PATH;?>
 /zzl-foot4.png") center center no-repeat;
@@ -128,6 +126,8 @@ function content_597808c338d005_13684673 (Smarty_Internal_Template $_smarty_tpl)
             bottom: 0;
             top: 0;
             margin: auto;
+            border-radius: 0.1rem;
+            padding-left: 0.2rem;
         }
 
         .sousuo-tu {

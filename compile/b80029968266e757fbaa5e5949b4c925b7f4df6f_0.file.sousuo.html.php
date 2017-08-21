@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-26 04:33:28
+/* Smarty version 3.1.30, created on 2017-07-29 04:13:10
   from "D:\wamp\www\travel\template\index\sousuo.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5977ff78741fe4_68915910',
+  'unifunc' => 'content_597bef368aa086_97199313',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'b80029968266e757fbaa5e5949b4c925b7f4df6f' => 
     array (
       0 => 'D:\\wamp\\www\\travel\\template\\index\\sousuo.html',
-      1 => 1499820882,
+      1 => 1501293591,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5977ff78741fe4_68915910 (Smarty_Internal_Template $_smarty_tpl) {
+function content_597bef368aa086_97199313 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -44,6 +44,22 @@ function content_5977ff78741fe4_68915910 (Smarty_Internal_Template $_smarty_tpl)
 /rem.js"><?php echo '</script'; ?>
 >
     <title>Document</title>
+    <style>
+        .header{
+            width: 100%;
+            height: 3.3rem;
+            position: fixed;
+            top:0;
+            left:0;
+            z-index: 50;
+            background: #2755d8;
+        }
+        .main{
+            position: absolute;
+            top:3.3rem;
+            left:0;
+        }
+    </style>
 </head>
 <body>
 <div class="header">

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-26 04:29:50
+/* Smarty version 3.1.30, created on 2017-07-29 04:08:01
   from "D:\wamp\www\travel\template\index\member.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5977fe9ec0eb44_35043526',
+  'unifunc' => 'content_597bee01ef8ae0_75955040',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'a4f2564d27a8c5e21ed3e7f47df35ebb5171f76a' => 
     array (
       0 => 'D:\\wamp\\www\\travel\\template\\index\\member.html',
-      1 => 1500430442,
+      1 => 1501293591,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5977fe9ec0eb44_35043526 (Smarty_Internal_Template $_smarty_tpl) {
+function content_597bee01ef8ae0_75955040 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -57,6 +57,43 @@ function content_5977fe9ec0eb44_35043526 (Smarty_Internal_Template $_smarty_tpl)
         });
     <?php echo '</script'; ?>
 >
+    <style>
+        .banner-fh{
+           background:#2A70EF;
+        }
+        .banner-fx{
+            background:#2A70EF;
+        }
+        .bianji, .shezhi {
+            width: 0.56rem;
+            height: 0.56rem;
+            border-radius: 50%;
+            border: 0.02rem solid #fff;
+            position: absolute;
+            bottom: 0.16rem;
+        }
+
+        .bianji img, .shezhi img {
+            width: 0.4rem;
+            height: 0.4rem;
+            border-radius: 50%;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+
+        .bianji {
+            left: 1.3rem;
+        }
+
+        .shezhi {
+            right: 1.3rem;
+        }
+
+    </style>
 </head>
 <body>
 <div class="body-zhe">
@@ -117,6 +154,7 @@ function content_5977fe9ec0eb44_35043526 (Smarty_Internal_Template $_smarty_tpl)
 ">
                     <img src="<?php echo IMG_PATH;?>
 /yjr_per_bj.png" alt="">
+                    <!--编辑-->
                 </a>
             </div>
             <div class="shezhi">
@@ -124,6 +162,7 @@ function content_5977fe9ec0eb44_35043526 (Smarty_Internal_Template $_smarty_tpl)
 ">
                     <img src="<?php echo IMG_PATH;?>
 /yjr_per_sz.png" alt="">
+                    <!--设置-->
                 </a>
             </div>
         </div>
